@@ -34,7 +34,6 @@ if nilai >= 60:
     status = "LULUS"
 else:
     status = "TIDAK LULUS"
-    
 print("+==================================+")
 print(f"| Nama      : {nama:<21}|")
 print(f"| Nilai     : {nilai:<21.1f}|")
@@ -54,7 +53,10 @@ input()
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramCekKelulusan.png" alt="Pratinjau_ProgramCekKelulusan">
-      <p><b>Program Pengecekan Kelulusan.</b></p>
+      
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_1_kelulusan.py">
+        <p><b>Program Pengecekan Kelulusan.</b></p>
+  </a>
     </td>
   </tr>
   <tr>
