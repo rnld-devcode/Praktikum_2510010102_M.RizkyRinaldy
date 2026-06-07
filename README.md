@@ -500,7 +500,7 @@ input()
       </ul>
     </td>
     <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/GameTebakAngka.png.png" alt="Pratinjau_GameTebakAngka">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/GameTebakAngka.png" alt="Pratinjau_GameTebakAngka">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_4_tebak_angka.py">
         <p><b>Game Tebak Angka Random</b></p>
   </a>
