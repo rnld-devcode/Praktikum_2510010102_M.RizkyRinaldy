@@ -52,6 +52,7 @@ print("+==================================+")
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramCekKelulusan.png" alt="Pratinjau_ProgramCekKelulusan">
+      <p><b>Gambar:</b> Program Pengecekan Kelulusan.</p>
     </td>
   </tr>
 </table>
@@ -78,7 +79,7 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    
 2. **Jalankan file executable hasil kompilasi:**
    ```bash
-   start  "" "namafile.py"
+   start  namafile.py
    ```
 <div align="center">
   <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/JalankanFilePython.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
