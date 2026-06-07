@@ -559,22 +559,26 @@ input()
 ---
 ## BAB 3 STRUKTUR DATA DASAR
 Python menyediakan beberapa **Struktur Data** built-in yang sangat powerful untuk mengelompokkan data. Masing-masing memiliki karakteristik dan penggunaan yang berbeda. 
-**List**
+
+**List:**
 Struktur  data  terurut  (ordered)  dan  dapat  diubah  (mutable).  List ditulis  dengan  kurung  siku  []. Contoh: 
 ```bash
 buah = ['apel', 'jeruk', 'mangga']
 ``` 
-**Tuple** 
+
+**Tuple:** 
 Mirip  list  tetapi  tidak  dapat  diubah  (immutable).  Tuple  ditulis dengan  kurung  bulat  ().  Contoh: 
 ```bash
 koordinat = (10, 20)
 ```
-**Dictionary**
+
+**Dictionary:**
 Struktur data berupa pasangan key-value. Dictionary ditulis dengan kurung kurawal {}. Contoh: 
 ```bash
 mhs = {'nama': 'Budi', 'nim': '2024001'}
 ```
-**Set**
+
+**Set:**
 Kumpulan elemen unik yang tidak terurut. Set ditulis dengan kurung kurawal {} tanpa pasangan key-value. Contoh: 
 ```bash
 angka = {1, 2, 3, 4}
@@ -582,175 +586,60 @@ angka = {1, 2, 3, 4}
 <table>
   <tr>
     <td width="60%">
-      <h3>2.1  Tabel Perkalian (<code>latihan2_1_perkalian.py</code>)</h3>
+      <h3>3.1  Manajemen Daftar Belanja (List)  (<code>latihan3_1_list_belanja.py</code>)</h3>
       <ul>
-        <li><b>Perulangan (Looping)</b></li>
-        <li><b>Soal: </b> Buatlah program yang menampilkan tabel perkalian dari suatu angka yang diinput user, mulai dari 1 sampai 10.</li>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah program untuk mengelola daftar belanja. User dapat menambah, melihat, dan menghapus item dari daftar. </li>
         <li><b>SourceCode:</b> 
             <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
               <code>
-print("+====================================+")
-print("|          Kamus Perkalian           |")
-print("+====================================+")
-n = int(input("          Masukkan angka: ")) 
-print("+====================================+")
-print(f"|           Tabel Perkalian          |") 
-print("+====================================+")
-for i in range(1, 11): 
-    hasil = n * i 
-    print(f"|{n:>-14} x {i:2d} = {hasil:<14}|") 
-print("+====================================+")
-print()
-print("+====================================+")
-print("|  Dosen: Bpk. Yusri Ikhwani, M.Kom  |")
-print("|    2510010102 - M. Rizky Rinaldy   |")
-print("+====================================+")
+daftar_belanja = [] 
 
-input()
-              </code>
-            </pre>
-        </li>
-      </ul>
-    </td>
-    <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KamusPerkalian.png" alt="Pratinjau_ProgramKamusPerkalian">
-      
-  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_1_perkalian.py">
-        <p><b>Program Tabel Perkalian.</b></p>
-  </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="60%">
-      <h3>2.2 Program Menghitung Faktorial (<code>latihan2_2_faktorial.py</code>)</h3>
-      <ul>
-        <li><b>Perulangan (Looping)</b></li>
-        <li><b>Soal: </b> Buatlah program yang menghitung faktorial dari bilangan bulat positif yang diinput. Faktorial n! = 1 × 2 × 3 × ... × n. </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
-print("+===============================================+")
-print("|              Kalkulator Faktorial             |")
-print("+===============================================+")
-n = int(input("         Masukkan bilangan bulat positif: ")) 
-print("+===============================================+")
-print(f"|            Hasil Faktorial dari {n:<8}      |")
-print("+-----------------------------------------------+")
-if n < 0: 
-    print("|  Faktorial hanya untuk bilangan non-negatif!  |") 
-else: 
-    hasil = 1 
-    proses = "" 
-    for i in range(1, n + 1): 
-       hasil *= i 
-       proses += f"{i}" 
-       if i < n: 
-            proses += " x " 
-    if n == 0: 
-         print(f"0! = 1") 
-    else: 
-        print(f"|{n}! = {proses} = {hasil:<5}|")
-print("+===============================================+")
-print()
-print("+===============================================+")
-print("|        Dosen: Bpk. Yusri Ikhwani, M.Kom       |")
-print("|          2510010102 - M. Rizky Rinaldy        |")
-print("+===============================================+")
-
-input()
-              </code>
-            </pre>
-        </li>
-      </ul>
-    </td>
-    <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorFaktorial.png" alt="Pratinjau_ProgramMenghitungFaktorial">
-  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_2_faktorial.py">
-        <p><b>Program Menghitung Faktorial.</b></p>
-  </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="60%">
-      <h3>2.3 Deret Fibonacci (<code>latihan2_3_fibonacci.py</code>)</h3>
-      <ul>
-        <li><b>Perulangan (Looping)</b></li>
-        <li><b>Soal: </b> Buatlah program yang menampilkan deret Fibonacci sebanyak N suku. Deret Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, ... </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
-print("+===============================================+")
-print("|                Deret Fibonacci                |")
-print("+===============================================+")
-n = int(input("             Masukkan jumlah suku: ")) 
-print("+===============================================+")
-print(f"|     Deret Fibonacci dari suku 1 hingga {n:<7}|")
-print("+-----------------------------------------------+") 
-a, b = 0, 1 
-print("|", end=" ")
-for i in range(n): 
-   print(a, end=" ") 
-   a, b = b, a + b 
-print("|")
-print("+===============================================+")
-print()
-print("+===============================================+")
-print("|        Dosen: Bpk. Yusri Ikhwani, M.Kom       |")
-print("|          2510010102 - M. Rizky Rinaldy        |")
-print("+===============================================+")
-
-input()
-              </code>
-            </pre>
-        </li>
-      </ul>
-    </td>
-    <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/DeretFibonacci.png" alt="Pratinjau_DeretFibonacci">
-  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_3_fibonacci.py">
-        <p><b>Deret Fibonacci.</b></p>
-  </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="60%">
-      <h3>2.4 Menebak Angka (While-break) (<code>latihan2_4_tebak_angka.py</code>)</h3>
-      <ul>
-        <li><b>Perulangan (Looping)</b></li>
-        <li><b>Soal: </b>  Buatlah  game  sederhana:  komputer  memikirkan  angka  1-20,  user  menebak.  Program  memberi petunjuk 'Terlalu besar' atau 'Terlalu kecil' sampai tebakan benar.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
-import random 
-print("+===============================================+")
-print("|               Game Tebak Angka                |")
-print("+===============================================+") 
-print("|       Saya memikirkan angka 1 sampai 20       |") 
-
-angka_rahasia = random.randint(1, 20) 
-percobaan = 0 
-  
 while True: 
-   print("+-----------------------------------------------+")
-   print(f"|                 Percobaan Ke-{percobaan}                |")
-   print("|                                               |")
-   tebakan = int(input("| Tebakan Anda: ")) 
-   print("|                                               |")
-   percobaan += 1 
-    
-   if tebakan == angka_rahasia: 
-        print(f"|     Benar! Anda menebak dalam {percobaan} percobaan.    |") 
+    print()
+    print("+==================================+")
+    print("|        MENU DAFTAR BELANJA       |")
+    print("+==================================+")
+    print("| 1. Tambah Item                   |") 
+    print("| 2. Lihat Daftar                  |") 
+    print("| 3. Hapus Item                    |") 
+    print("| 4. Keluar                        |") 
+    print("+==================================+")
+    pilih = input("            Pilihan: ") 
+    print("+----------------------------------+")
+    if pilih == "1": 
+        item = input("| Nama item: ") 
+        daftar_belanja.append(item) 
+        print("+----------------------------------+")
+        print(f"|'{item:>11}' ditambahkan         |") 
+        print("+----------------------------------+")
+    elif pilih == "2": 
+        if len(daftar_belanja) == 0: 
+            print("|       Daftar masih kosong        |")
+        else: 
+            print("|            Isi daftar:           |") 
+            print("+----------------------------------+")
+        for i, item in enumerate(daftar_belanja, 1): 
+            print(f"|  {i}. {item:<29}|") 
+        print("+----------------------------------+")
+    elif pilih == "3": 
+        item = input("| Item yang ingin dihapus: ") 
+        if item in daftar_belanja: 
+            daftar_belanja.remove(item) 
+            print("+----------------------------------+")
+            print(f"|'{item:>11}' dihapus             |") 
+            print("+----------------------------------+")
+        else: 
+            print("+----------------------------------+")
+            print("|       Item tidak ditemukan       |")
+            print("+----------------------------------+")
+    elif pilih == "4":
         break 
-   elif tebakan < angka_rahasia: 
-        print(f"|           Terlalu kecil, coba lagi!           |") 
-   else: 
-        print(f"|           Terlalu besar, coba lagi!           |") 
-print("+===============================================+")
 print()
-print("+===============================================+")
-print("|        Dosen: Bpk. Yusri Ikhwani, M.Kom       |")
-print("|          2510010102 - M. Rizky Rinaldy        |")
-print("+===============================================+")
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
 
 input()
               </code>
@@ -759,45 +648,205 @@ input()
       </ul>
     </td>
     <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/GameTebakAngka.png.png" alt="Pratinjau_GameTebakAngka">
-  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_4_tebak_angka.py">
-        <p><b>Game Tebak Angka Random</b></p>
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ListBelanja.png" alt="Pratinjau_ProgramDaftarBelanjaan">
+      
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_1_list_belanja.py">
+        <p><b>Program Daftar Belanjaan.</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>3.2 Statistika Nilai Mahasiswa (List) (<code>latihan3_2_statistik.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah program yang menerima N nilai mahasiswa, lalu menampilkan nilai tertinggi, terendah, rata-rata, dan jumlah total.</li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+print("+==================================+")
+print("|    Statistika Nilai Mahasiswa    |")
+print("+==================================+")
+n = int(input("| Jumlah data      : ")) 
+print("+----------------------------------+")
+nilai = [] 
+for i in range(n): 
+    x = float(input(f"| Nilai ke-{i+1}       : ")) 
+    nilai.append(x) 
+print("+----------------------------------+")
+
+total    = sum(nilai) 
+rata     = total / n 
+tertinggi = max(nilai) 
+terendah  = min(nilai) 
+
+print("+==================================+")
+print(f"| Jumlah Nilai     : {total:<14}|") 
+print(f"| Rata-rata        : {rata:<14.2f}|") 
+print(f"| Nilai Tertinggi  : {tertinggi:<14}|") 
+print(f"| Nilai Terendah   : {terendah:<14}|") 
+print("+==================================+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/StatistikNilaiMahasiswa.png" alt="Pratinjau_ProgramStatistik">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_2_statistik.py">
+        <p><b>Program Statistika Nilai Mahasiswa.</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>3.3 Data Mahasiswa (Dictionary) (<code>latihan3_3_dictionary.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah program yang menyimpan data mahasiswa menggunakan dictionary, kemudian menampilkannya dalam format rapi.</li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+print("+==================================+")
+print("|       Input Data Mahasiswa       |")
+print("+==================================+")
+mahasiswa = { 
+ "nim"    : input("| NIM       : "), 
+ "nama"   : input("| Nama      : "), 
+ "jurusan": input("| Jurusan   : "), 
+ "ipk"    : float(input("| IPK       : ")) 
+} 
+print("+==================================+")
+print()
+print("+----------------------------------+")
+print("|          DATA MAHASISWA          |") 
+print("+----------------------------------+")
+
+for key, value in mahasiswa.items(): 
+    print(f"| {key.capitalize():10s}: {value:<20} |") 
+
+if mahasiswa["ipk"] >= 3.5: 
+     predikat = "Cumlaude" 
+elif mahasiswa["ipk"] >= 3.0: 
+    predikat = "Sangat Memuaskan" 
+elif mahasiswa["ipk"] >= 2.5: 
+    predikat = "Memuaskan" 
+else: 
+    predikat = "Cukup" 
+
+
+print(f"| {'Predikat':10s}: {predikat:<20} |") 
+print("+==================================+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/DataMahasiswa.png" alt="Pratinjau_ProgramDataMahasiswa">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_3_dictionary.py">
+        <p><b>Program Data Mahasiswa</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>3.4 Menghitung Frekuensi Huruf (Dictionary) (<code>latihan3_4_frekuensi.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah program yang menghitung berapa kali setiap huruf muncul dalam sebuah kalimat menggunakan dictionary.</li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+print("+==================================+")
+print("|         Frekuensi Huruf          |")
+print("+==================================+")
+kalimat = input("|Masukkan kalimat: ").lower() 
+print("+----------------------------------+")
+print()
+frekuensi = {} 
+for huruf in kalimat: 
+    if huruf.isalpha(): 
+        if huruf in frekuensi: 
+            frekuensi[huruf] += 1 
+        else: 
+            frekuensi[huruf] = 1 
+  
+print("+==================================+")
+print("|        Hasil Pengelompokan       |")
+print("+==================================+")
+
+for huruf in sorted(frekuensi.keys()): 
+    print(f"|         '{huruf}' muncul {frekuensi[huruf]} kali        |")
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/FrekuensiHuruf.png" alt="Pratinjau_FrekuensiHuruf">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_4_frekuensi.py">
+        <p><b>Menghitung Frekuensi Huruf</b></p>
   </a>
     </td>
   </tr>
   <tr>
   <td width="60%">
-      <h3>2.5 Program Pola Piramida Angka (<code>latihan2_5_piramida.py</code>)</h3>
+      <h3>3.5 Operasi Himpunan (Set) (<code>latihan3_5_set.py</code>)</h3>
       <ul>
         <li><b>Perulangan (Looping)</b></li>
-        <li><b>Soal: </b> Buatlah  program  yang  menampilkan  pola  piramida  angka  menggunakan  perulangan  bersarang (nested loop).</li>
+        <li><b>Soal: </b> Buatlah  program  yang  menerima  dua  himpunan  bilangan,  kemudian  menampilkan  hasil  operasi gabungan (union), irisan (intersection), dan selisih (difference). </li>
         <li><b>SourceCode:</b> 
             <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
               <code>
-print("+============================================+")
-print("|             Pola Piramida Angka            |")
-print("+============================================+")
-tinggi = int(input("          Masukkan tinggi piramida: ")) 
-print("+============================================+")
-print(f"|    Piramida Angka dengan Tinggi {tinggi} baris   |")
-print("+--------------------------------------------+") 
-for i in range(1, tinggi + 1): 
+print("+==================================+")
+print("|      Input Anggota Himpunan      |")
+print("|      (pisahkan dengan koma)      |")
+print("+==================================+")
+data_a = input("| Himpunan A : ") 
+data_b = input("| Himpunan B : ") 
+  
+A = set(int(x.strip()) for x in data_a.split(",")) 
+B = set(int(x.strip()) for x in data_b.split(",")) 
 
-    print(" " * (tinggi - i) * 2, end="")   
-
-    for j in range(1, i + 1): 
-        print(f"{j:<2}", end="") 
-        
-    for j in range(i - 1, 0, -1): 
-        print(f"{j:<2}", end="") 
-    
-    print()
-print("+============================================+")
+print("+==================================+")
+print("|          Hasil Himpunan          |")
+print("+==================================+")
+print(f"| A           = {A}") 
+print(f"| B           = {B}") 
+print(f"| A U B       = {A | B}") 
+print(f"| A ∩ B       = {A & B}") 
+print(f"| A - B       = {A - B}") 
+print(f"| B - A       = {B - A}") 
+print(f"| Simetris    = {A ^ B}") 
+print("+----------------------------------+")
 print()
-print("+============================================+")
-print("|      Dosen: Bpk. Yusri Ikhwani, M.Kom      |")
-print("|        2510010102 - M. Rizky Rinaldy       |")
-print("+============================================+")
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
 
 input()
               </code>
@@ -806,9 +855,9 @@ input()
       </ul>
     </td>
     <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PiramidaAngka.png" alt="Pratinjau_PolaPiramidaAngka">
-  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_5_piramida.py">
-        <p><b>Program Pola Piramida Angka.</b></p>
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/OperasiHimpunan.png" alt="Pratinjau_OperasiHimpunan">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_5_set.py">
+        <p><b>Operasi Himpunan.</b></p>
   </a>
     </td>
   </tr>
