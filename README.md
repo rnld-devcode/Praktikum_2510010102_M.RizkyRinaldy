@@ -34,6 +34,7 @@ if nilai >= 60:
     status = "LULUS"
 else:
     status = "TIDAK LULUS"
+    
 print("+==================================+")
 print(f"| Nama      : {nama:<21}|")
 print(f"| Nilai     : {nilai:<21.1f}|")
@@ -203,7 +204,7 @@ input()
       </ul>
     </td>
     <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramLoketTiket.png.png" alt="Pratinjau_LoketTiket">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramLoketTiket.png" alt="Pratinjau_LoketTiket">
       <p><b>Program Loket Tiket Bioskop.</b></p>
     </td>
   </tr>
@@ -272,7 +273,7 @@ input()
       </ul>
     </td>
     <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PenentuJenisSegitiga.png.png" alt="Pratinjau_PenentuJenisSegitiga">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PenentuJenisSegitiga.png" alt="Pratinjau_PenentuJenisSegitiga">
       <p><b>Program Penentu Jenis Segitiga.</b></p>
     </td>
   </tr>
