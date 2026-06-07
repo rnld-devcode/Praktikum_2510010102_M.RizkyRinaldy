@@ -18,7 +18,7 @@ Di bawah ini adalah daftar program yang telah digabungkan ke dalam repositori in
   <tr>
     <td width="60%">
       <h3>1.1 Program Penentu Kelulusan 
-([latihan1_1_kelulusan.py](latihan1_1_kelulusan.py))</h3>
+([latihan1_1_kelulusan.py](/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani,%20M.Kom/latihan1_1_kelulusan.py))</h3>
       <ul>
         <li><b>Praktikum:</b> ALGO2</li>
         <li><b>Materi:</b> Percabangan (Selection) menggunakan <code>if-elif-else</code> dan Operator relasi yang sering digunakan: == (sama dengan), != (tidak sama), > (lebih besar), < (lebih kecil),  >=  (lebih  besar  sama  dengan),  <=  (lebih  kecil  sama  dengan).  Sedangkan  operator  logika meliputi and, or, dan not. .</li>
