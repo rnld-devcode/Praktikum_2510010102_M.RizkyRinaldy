@@ -17,7 +17,7 @@ Di bawah ini adalah daftar program yang telah digabungkan ke dalam repositori in
 <table>
   <tr>
     <td width="60%">
-      <h3>1.1 Program Penentu Kelulusan ([latihan1_1_kelulusan.py](ALGO2%20-%20Bpk.%20Yusri%20Ikhwani,%20M.Kom/latihan1_1_kelulusan.py))</h3>
+      <h3>1.1  Program Penentu Kelulusan (<code>latihan1_1_kelulusan.py</code>)</h3>
       <ul>
         <li><b>Praktikum:</b> ALGO2</li>
         <li><b>Materi:</b> Percabangan (Selection) menggunakan <code>if-elif-else</code> dan Operator relasi yang sering digunakan: == (sama dengan), != (tidak sama), > (lebih besar), < (lebih kecil),  >=  (lebih  besar  sama  dengan),  <=  (lebih  kecil  sama  dengan).  Sedangkan  operator  logika meliputi and, or, dan not. .</li>
@@ -34,7 +34,6 @@ if nilai >= 60:
     status = "LULUS"
 else:
     status = "TIDAK LULUS"
-    
 print("+==================================+")
 print(f"| Nama      : {nama:<21}|")
 print(f"| Nilai     : {nilai:<21.1f}|")
@@ -53,8 +52,9 @@ input()
       </ul>
     </td>
     <td width="40%">
+    <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_1_kelulusan.py">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramCekKelulusan.png" alt="Pratinjau_ProgramCekKelulusan">
-      <p><b>Program Pengecekan Kelulusan.</b></p>
+      <p><b>Program Pengecekan Kelulusan.</b></p></a>
     </td>
   </tr>
   <tr>
