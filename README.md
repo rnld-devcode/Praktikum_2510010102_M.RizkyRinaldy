@@ -486,6 +486,7 @@ while True:
         print(f"|           Terlalu kecil, coba lagi!           |") 
    else: 
         print(f"|           Terlalu besar, coba lagi!           |") 
+        
 print("+===============================================+")
 print()
 print("+===============================================+")
@@ -557,18 +558,27 @@ input()
 
 ---
 ## BAB 3 STRUKTUR DATA DASAR
-**Perulangan  (Looping)**  merupakan  struktur  kontrol  yang  digunakan  untuk  menjalankan  satu  atau sekumpulan perintah secara berulang-ulang hingga suatu kondisi terpenuhi. Python menyediakan dua bentuk utama perulangan: for dan while. 
-**Perulangan for:**
+Python menyediakan beberapa **Struktur Data** built-in yang sangat powerful untuk mengelompokkan data. Masing-masing memiliki karakteristik dan penggunaan yang berbeda. 
+**List**
+Struktur  data  terurut  (ordered)  dan  dapat  diubah  (mutable).  List ditulis  dengan  kurung  siku  []. Contoh: 
 ```bash
-for variabel in iterable: 
-    # blok kode yang akan diulang 
+buah = ['apel', 'jeruk', 'mangga']
+``` 
+**Tuple** 
+Mirip  list  tetapi  tidak  dapat  diubah  (immutable).  Tuple  ditulis dengan  kurung  bulat  ().  Contoh: 
+```bash
+koordinat = (10, 20)
 ```
-**Perulangan while:**
+**Dictionary**
+Struktur data berupa pasangan key-value. Dictionary ditulis dengan kurung kurawal {}. Contoh: 
 ```bash
-while kondisi: 
-    # blok kode yang akan diulang selama kondisi bernilai True 
- ```
-Fungsi range(start, stop, step) sering digunakan bersama for untuk menghasilkan urutan bilangan. Sementara itu, kata kunci break digunakan untuk menghentikan perulangan sebelum waktunya, dan continue untuk melewati iterasi saat ini dan lanjut ke iterasi berikutnya.
+mhs = {'nama': 'Budi', 'nim': '2024001'}
+```
+**Set**
+Kumpulan elemen unik yang tidak terurut. Set ditulis dengan kurung kurawal {} tanpa pasangan key-value. Contoh: 
+```bash
+angka = {1, 2, 3, 4}
+```
 <table>
   <tr>
     <td width="60%">
