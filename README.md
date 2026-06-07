@@ -1,4 +1,4 @@
-# 📚 Repositori Praktikum
+# 📚 Repositori Praktikum ALGO - Bpk Yusri Ikhwani, M. Kom
 
 Repositori ini merupakan kumpulan latihan praktikumh berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma Pemrograman dan Sistem Perancangan Basis Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika.
 
@@ -108,7 +108,9 @@ input()
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramKonversiNilaiHuruf.png" alt="Pratinjau_ProgramKonversiNilaiHuruf">
-      <p><b>Program Konversi Nilai ke Huruf.</b></p>
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_2_nilaihuruf.py">
+        <p><b>Program Konversi Nilai Ke Huruf.</b></p>
+  </a>
     </td>
   </tr>
   <tr>
@@ -155,7 +157,9 @@ input()
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorBMI.png" alt="Pratinjau_KalkulatorBMI">
-      <p><b>Program Kalkulator BMI.</b></p>
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_3_bmi.py">
+        <p><b>Program Kalkulator BMI.</b></p>
+  </a>
     </td>
   </tr>
   <tr>
@@ -207,7 +211,9 @@ input()
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramLoketTiket.png" alt="Pratinjau_LoketTiket">
-      <p><b>Program Loket Tiket Bioskop.</b></p>
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_4_tiket.py">
+        <p><b>Program Loket Tiket Bioskop.</b></p>
+  </a>
     </td>
   </tr>
   <tr>
@@ -226,7 +232,6 @@ a = float(input("     Masukkan panjang sisi a : "))
 b = float(input("     Masukkan panjang sisi b : ")) 
 c = float(input("     Masukkan panjang sisi c : ")) 
 
-# Validasi segitiga 
 if (a + b) <= c or (a + c) <= b or (b + c) <= a: 
     print("Ketiga sisi TIDAK membentuk segitiga!") 
 else: 
@@ -276,7 +281,9 @@ input()
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PenentuJenisSegitiga.png" alt="Pratinjau_PenentuJenisSegitiga">
-      <p><b>Program Penentu Jenis Segitiga.</b></p>
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_5_segitiga.py">
+        <p><b>Program Penentu Jenis Segitiga.</b></p>
+  </a>
     </td>
   </tr>
 </table>
