@@ -896,4 +896,4 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
   <p><b>Langkah Menjalankan Program.</b></p>
 </div>
 
-<center><b>Copyrigt2026</b></center>
+<div align="center"><b>Copyright2026</b></div>
