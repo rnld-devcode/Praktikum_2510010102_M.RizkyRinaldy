@@ -1,6 +1,6 @@
 # Repositori Praktikum ALGO - Bpk Yusri Ikhwani, M. Kom
-<p style="text-align: center; font-style: italic;"> "Code is like humor. When you have to explain it, it's bad.</p>
-<p style="text-align: center; font-style: italic;">  — Cory House</p>
+"Code is like humor. When you have to explain it, it's bad.
+— Cory House</p>
 
 
 Repositori ini merupakan kumpulan latihan praktikum berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma Pemrograman dan Sistem Perancangan Basis Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika.
@@ -895,3 +895,5 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
   <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/JalankanFilePython.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <p><b>Langkah Menjalankan Program.</b></p>
 </div>
+
+<center><b>Copyrigt2026</b></center>
