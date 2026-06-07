@@ -47,3 +47,5 @@ print("+====================================+")
 print("|  Dosen: Bpk. Yusri Ikhwani, M.Kom  |")
 print("|    2510010102 - M. Rizky Rinaldy   |")
 print("+====================================+")
+
+input()
