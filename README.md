@@ -1,26 +1,15 @@
 # #️⃣ Repositori Praktikum ALGO - Bpk Yusri Ikhwani, M. Kom
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Language-Pascal-blue" alt="Pascal">
   <img src="https://img.shields.io/badge/Language-Python-blue" alt="Python">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Status-Ongoing-yellow" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/OS-Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" alt="Ubuntu">
-</p>
-
-<p align="left">
   <img src="https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code">
-  <img src="https://img.shields.io/badge/VCS-Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Version-v1.0.0-blue" alt="Version">
-  <img src="https://img.shields.io/github/repo-size/rnld-devcode/RepoTugasRizky" alt="Repo Size">
 </p>
-
+  <img src="https://img.shields.io/badge/Status-Ongoing-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/Version-v1.0.0-blue" alt="Version">
+  <img src="https://img.shields.io/github/repo-size/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy" alt="Repo Size">
 ---
 
 > 💡 *"Code is like humor. When you have to explain it, it's bad."*  
