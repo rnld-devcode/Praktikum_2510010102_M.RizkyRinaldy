@@ -6,10 +6,10 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/OS-Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows">
   <img src="https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code">
-</p>
   <img src="https://img.shields.io/badge/Status-Ongoing-yellow" alt="Status">
   <img src="https://img.shields.io/badge/Version-v1.0.0-blue" alt="Version">
-  <img src="https://img.shields.io/github/repo-size/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy" alt="Repo Size">
+</p>
+
 ---
 
 > 💡 *"Code is like humor. When you have to explain it, it's bad."*  
