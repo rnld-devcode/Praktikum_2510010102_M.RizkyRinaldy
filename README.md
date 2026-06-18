@@ -1,9 +1,32 @@
-# Repositori Praktikum ALGO - Bpk Yusri Ikhwani, M. Kom
-"Code is like humor. When you have to explain it, it's bad.
-— Cory House</p>
+# #️⃣ Repositori Praktikum ALGO - Bpk Yusri Ikhwani, M. Kom
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Language-Pascal-blue" alt="Pascal">
+  <img src="https://img.shields.io/badge/Language-Python-blue" alt="Python">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
+</p>
 
-Repositori ini merupakan kumpulan latihan praktikum berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma Pemrograman dan Sistem Perancangan Basis Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika.
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Ongoing-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/OS-Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" alt="Ubuntu">
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/VCS-Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Version-v1.0.0-blue" alt="Version">
+  <img src="https://img.shields.io/github/repo-size/rnld-devcode/RepoTugasRizky" alt="Repo Size">
+</p>
+
+---
+
+> 💡 *"Code is like humor. When you have to explain it, it's bad."*  
+> — **Cory House**
+
+Repositori ini berisi kumpulan latihan praktikum pemrograman menggunakan bahasa **Python**, **Pascal**, dan **C++** (termasuk mata kuliah Algoritma Pemrograman dan Sistem Perancangan Basis Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika.
 
 ---
 
@@ -11,9 +34,10 @@ Repositori ini merupakan kumpulan latihan praktikum berbasis bahasa pemrograman,
 * **Nama** : M. Rizky Rinaldy
 * **NPM** : 2510010102
 * **Program Studi** : Teknik Informatika
+
 ---
 
-## 🗂️ Daftar Tugas
+## 🗂️ Daftar Tugas Praktikum
 
 Di bawah ini adalah daftar program yang telah digabungkan ke dalam repositori ini:
 
@@ -868,7 +892,7 @@ input()
 ## 💻 Prasyarat & Lingkungan Pengembangan
 
 Untuk mengompilasi dan menjalankan program-program di atas, Anda memerlukan:
-* **Python Interpreter** Download: Kunjungi situs resmi <link>python.org</link>.
+* **Python Interpreter** Download: Kunjungi situs resmi [python.org](https://www.python.org/).
 * Rekomendasi IDE/Text Editor: **VS Code (Visual Studio Code)**, **PyCharm**, atau **IDLE:** IDE bawaan yang langsung terinstal saat Anda menginstal Python. .
 
 ---
@@ -881,19 +905,21 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ```bash
     cd C:\Users\rizky\Downloads\
    ```
-   Note : rizky --> ganti ke nama user sesuai profile di komputer Anda
+   > 📌 Note : rizky --> ganti ke nama user sesuai profile di komputer Anda
    
 2. **Jalankan file:**
    ```bash
-   start namafile.py
+  python namafile.py
    ```
    contoh menjalankan file latihan1_1_kelulusan.py
    ```bash
-   start latihan1_1_kelulusan.py
+   python latihan1_1_kelulusan.py
    ```
 <div align="center">
   <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/JalankanFilePython.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <p><b>Langkah Menjalankan Program.</b></p>
 </div>
-
-<div align="center"><b>Copyright2026</b></div>
+<p align="center">
+  <a href="#-repositori-praktikum-algo---bpk-yusri-ikhwani-m-kom">🔺 Kembali ke Atas</a>
+</p>
+<div align="center">© 2026 M. Rizky Rinaldy. All Rights Reserved.</div>
