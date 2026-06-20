@@ -898,9 +898,10 @@ Fungsi dapat memiliki parameter (nilai masukan) dan return value (nilai keluaran
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah fungsi untuk mengkonversi suhu antara Celcius, Fahrenheit, dan Reamur menggunakan tiga fungsi terpisah.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><b>SourceCode:</b>
+            <details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 def celcius_to_fahrenheit(c): 
     return (c * 9/5) + 32 
 def celcius_to_reamur(c): 
@@ -928,8 +929,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+               </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -1140,7 +1141,7 @@ input()
             print("|      Pilihan tidak valid!        |") 
             print("+----------------------------------+")
             continue 
-  
+            
     a = float(input("       Angka pertama : ")) 
     b = float(input("       Angka kedua   : ")) 
   
