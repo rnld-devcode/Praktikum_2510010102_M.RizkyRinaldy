@@ -605,9 +605,9 @@ angka = {1, 2, 3, 4}
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah program untuk mengelola daftar belanja. User dapat menambah, melihat, dan menghapus item dari daftar. </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 daftar_belanja = [] 
 
 while True: 
@@ -657,8 +657,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -676,9 +676,9 @@ input()
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah program yang menerima N nilai mahasiswa, lalu menampilkan nilai tertinggi, terendah, rata-rata, dan jumlah total.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+==================================+")
 print("|    Statistika Nilai Mahasiswa    |")
 print("+==================================+")
@@ -708,8 +708,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -726,9 +726,9 @@ input()
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah program yang menyimpan data mahasiswa menggunakan dictionary, kemudian menampilkannya dalam format rapi.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+==================================+")
 print("|       Input Data Mahasiswa       |")
 print("+==================================+")
@@ -766,8 +766,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -784,9 +784,9 @@ input()
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah program yang menghitung berapa kali setiap huruf muncul dalam sebuah kalimat menggunakan dictionary.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+==================================+")
 print("|         Frekuensi Huruf          |")
 print("+==================================+")
@@ -815,8 +815,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -833,9 +833,9 @@ input()
       <ul>
         <li><b>Perulangan (Looping)</b></li>
         <li><b>Soal: </b> Buatlah  program  yang  menerima  dua  himpunan  bilangan,  kemudian  menampilkan  hasil  operasi gabungan (union), irisan (intersection), dan selisih (difference). </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+==================================+")
 print("|      Input Anggota Himpunan      |")
 print("|      (pisahkan dengan koma)      |")
@@ -864,8 +864,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
