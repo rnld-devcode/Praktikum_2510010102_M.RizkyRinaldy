@@ -341,9 +341,9 @@ Fungsi range(start, stop, step) sering digunakan bersama for untuk menghasilkan 
       <ul>
         <li><b>Perulangan (Looping)</b></li>
         <li><b>Soal: </b> Buatlah program yang menampilkan tabel perkalian dari suatu angka yang diinput user, mulai dari 1 sampai 10.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+====================================+")
 print("|          Kamus Perkalian           |")
 print("+====================================+")
@@ -362,8 +362,8 @@ print("|    2510010102 - M. Rizky Rinaldy   |")
 print("+====================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -381,9 +381,9 @@ input()
       <ul>
         <li><b>Perulangan (Looping)</b></li>
         <li><b>Soal: </b> Buatlah program yang menghitung faktorial dari bilangan bulat positif yang diinput. Faktorial n! = 1 × 2 × 3 × ... × n. </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+===============================================+")
 print("|              Kalkulator Faktorial             |")
 print("+===============================================+")
@@ -413,8 +413,8 @@ print("|          2510010102 - M. Rizky Rinaldy        |")
 print("+===============================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            <li><details>
         </li>
       </ul>
     </td>
@@ -431,9 +431,9 @@ input()
       <ul>
         <li><b>Perulangan (Looping)</b></li>
         <li><b>Soal: </b> Buatlah program yang menampilkan deret Fibonacci sebanyak N suku. Deret Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, ... </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+===============================================+")
 print("|                Deret Fibonacci                |")
 print("+===============================================+")
@@ -455,8 +455,8 @@ print("|          2510010102 - M. Rizky Rinaldy        |")
 print("+===============================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -473,9 +473,9 @@ input()
       <ul>
         <li><b>Perulangan (Looping)</b></li>
         <li><b>Soal: </b>  Buatlah  game  sederhana:  komputer  memikirkan  angka  1-20,  user  menebak.  Program  memberi petunjuk 'Terlalu besar' atau 'Terlalu kecil' sampai tebakan benar.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 import random 
 print("+===============================================+")
 print("|               Game Tebak Angka                |")
@@ -509,8 +509,8 @@ print("|          2510010102 - M. Rizky Rinaldy        |")
 print("+===============================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -527,9 +527,9 @@ input()
       <ul>
         <li><b>Perulangan (Looping)</b></li>
         <li><b>Soal: </b> Buatlah  program  yang  menampilkan  pola  piramida  angka  menggunakan  perulangan  bersarang (nested loop).</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+============================================+")
 print("|             Pola Piramida Angka            |")
 print("+============================================+")
@@ -556,8 +556,8 @@ print("|        2510010102 - M. Rizky Rinaldy       |")
 print("+============================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -1052,7 +1052,7 @@ input()
       <h3>4.4 Fungsi Rekursif Faktorial (<code>latihan4_4_rekursif.py</code>)</h3>
       <ul>
         <li><b>Struktur Data Dasar</b></li>
-        <li><b>Soal: </b> BBuatlah  fungsi  rekursif  untuk  menghitung  faktorial.  Fungsi  rekursif  adalah  fungsi  yang memanggil dirinya sendiri.</li>
+        <li><b>Soal: </b> Buatlah  fungsi  rekursif  untuk  menghitung  faktorial.  Fungsi  rekursif  adalah  fungsi  yang memanggil dirinya sendiri.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
                 <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
