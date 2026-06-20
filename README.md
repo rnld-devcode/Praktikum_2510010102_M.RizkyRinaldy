@@ -1223,7 +1223,7 @@ input()
       </ul>
     </td>
     <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/AlgoritmaLinearSearch.png.png" alt="Pratinjau_AlgoritmaLinearSearch">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/AlgoritmaLinearSearch.png" alt="Pratinjau_AlgoritmaLinearSearch">
       
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_1_linear_search.py">
         <p align="center"><b>Algoritma Linear Search</b></p>
@@ -1281,7 +1281,7 @@ input()
       </ul>
     </td>
     <td width="40%">
-      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/AlgoritmaLinearBubbleSort.png.png" alt="Pratinjau_AlgoritmaBubbleSort">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/AlgoritmaLinearBubbleSort.png" alt="Pratinjau_AlgoritmaBubbleSort">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_2_bubble_sort.py">
         <p align="center"><b>Algoritma Bubble Sort</b></p>
   </a>
