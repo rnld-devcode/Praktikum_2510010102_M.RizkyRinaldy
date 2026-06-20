@@ -898,8 +898,7 @@ Fungsi dapat memiliki parameter (nilai masukan) dan return value (nilai keluaran
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah fungsi untuk mengkonversi suhu antara Celcius, Fahrenheit, dan Reamur menggunakan tiga fungsi terpisah.</li>
-        <li><b>SourceCode:</b>
-            <details>
+        <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
                 <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 def celcius_to_fahrenheit(c): 
@@ -948,9 +947,9 @@ input()
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah fungsi yang mengembalikan True jika sebuah bilangan adalah prima, dan False jika bukan. Gunakan fungsi tersebut untuk mencetak bilangan prima dari 1 sampai N. </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 def is_prima(n): 
     if n < 2: 
         return False 
@@ -984,8 +983,8 @@ print("|    2510010102 - M. Rizky Rinaldy    |")
 print("+=====================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+          </details>
         </li>
       </ul>
     </td>
@@ -1002,9 +1001,9 @@ input()
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah  fungsi  penghitung  harga  setelah  diskon  dengan  parameter  default.  Diskon  default  10%, pajak default 11%.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 def hitung_harga(harga_awal, diskon=10, pajak=11): 
     potongan = harga_awal * diskon / 100 
     setelah_diskon = harga_awal - potongan 
@@ -1036,8 +1035,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -1054,9 +1053,9 @@ input()
       <ul>
         <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> BBuatlah  fungsi  rekursif  untuk  menghitung  faktorial.  Fungsi  rekursif  adalah  fungsi  yang memanggil dirinya sendiri.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 def faktorial(n): 
     if n <= 1: 
         return 1 
@@ -1087,8 +1086,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -1105,68 +1104,68 @@ input()
       <ul>
         <li><b>Perulangan (Looping)</b></li>
         <li><b>Soal: </b> Buatlah kalkulator yang memanfaatkan beberapa fungsi untuk operasi matematika. Setiap operasi ditangani oleh fungsi terpisah.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-    <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 
-    def tambah(a, b):    return a + b
-    def kurang(a, b):    return a - b 
-    def kali(a, b):      return a * b 
-    def bagi(a, b): 
-        if b == 0: 
-            return None 
-        return a / b 
-      
-    def tampilkan_menu(): 
-        print("+==================================+")
-        print("|       Kalkulator Sederhana       |")
-        print("+==================================+")
-        print("| 1. Tambah                        |") 
-        print("| 2. Kurang                        |") 
-        print("| 3. Kali                          |") 
-        print("| 4. Bagi                          |") 
-        print("| 5. Keluar                        |") 
-        print("+----------------------------------+")
-      
-    while True: 
-        tampilkan_menu() 
-        pilih = input("             Pilihan : ") 
-        if pilih == "5": 
-            print("+----------------------------------+")
-            print("|          Terima kasih!           |")
-            print("+----------------------------------+")
-            break 
-        if pilih not in "1234": 
-            print("+----------------------------------+")
-            print("|      Pilihan tidak valid!        |") 
-            print("+----------------------------------+")
-            continue 
-            
-    a = float(input("       Angka pertama : ")) 
-    b = float(input("       Angka kedua   : ")) 
+def tambah(a, b):    return a + b
+def kurang(a, b):    return a - b 
+def kali(a, b):      return a * b 
+def bagi(a, b): 
+    if b == 0: 
+        return None 
+    return a / b 
   
-    if pilih == "1":   hasil = tambah(a, b); op = "+" 
-    elif pilih == "2": hasil = kurang(a, b); op = "-" 
-    elif pilih == "3": hasil = kali(a, b);   op = "x" 
-    else:              hasil = bagi(a, b);   op = "/" 
-    
+def tampilkan_menu(): 
     print("+==================================+")
-    print("|        Hasil Perhitungan         |")
+    print("|       Kalkulator Sederhana       |")
     print("+==================================+")
-    if hasil is None: 
-         print("| Error: Pembagian dengan nol! |") 
-    else: 
-         print(f"|Hasil:{a:6} {op} {b:<6} = {hasil:10}|") 
+    print("| 1. Tambah                        |") 
+    print("| 2. Kurang                        |") 
+    print("| 3. Kali                          |") 
+    print("| 4. Bagi                          |") 
+    print("| 5. Keluar                        |") 
     print("+----------------------------------+")
-    print()
-    print("+==================================+")
-    print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
-    print("|   2510010102 - M. Rizky Rinaldy  |")
-    print("+==================================+")
+  
+while True: 
+    tampilkan_menu() 
+    pilih = input("             Pilihan : ") 
+    if pilih == "5": 
+        print("+----------------------------------+")
+        print("|          Terima kasih!           |")
+        print("+----------------------------------+")
+        break 
+    if pilih not in "1234": 
+        print("+----------------------------------+")
+        print("|      Pilihan tidak valid!        |") 
+        print("+----------------------------------+")
+        continue 
+        
+a = float(input("       Angka pertama : ")) 
+b = float(input("       Angka kedua   : ")) 
 
-    input()
-  </code>
-            </pre>
+if pilih == "1":   hasil = tambah(a, b); op = "+" 
+elif pilih == "2": hasil = kurang(a, b); op = "-" 
+elif pilih == "3": hasil = kali(a, b);   op = "x" 
+else:              hasil = bagi(a, b);   op = "/" 
+
+print("+==================================+")
+print("|        Hasil Perhitungan         |")
+print("+==================================+")
+if hasil is None: 
+      print("| Error: Pembagian dengan nol! |") 
+else: 
+      print(f"|Hasil:{a:6} {op} {b:<6} = {hasil:10}|") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
