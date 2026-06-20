@@ -320,6 +320,7 @@ input()
 </table>
 
 ---
+
 ## BAB 2 PERULANGAN (LOOPING)
 **Perulangan  (Looping)**  merupakan  struktur  kontrol  yang  digunakan  untuk  menjalankan  satu  atau sekumpulan perintah secara berulang-ulang hingga suatu kondisi terpenuhi. Python menyediakan dua bentuk utama perulangan: for dan while. 
 **Perulangan for:**
@@ -570,6 +571,7 @@ input()
 </table>
 
 ---
+
 ## BAB 3 STRUKTUR DATA DASAR
 Python menyediakan beberapa **Struktur Data** built-in yang sangat powerful untuk mengelompokkan data. Masing-masing memiliki karakteristik dan penggunaan yang berbeda. 
 
@@ -871,6 +873,305 @@ input()
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/OperasiHimpunan.png" alt="Pratinjau_OperasiHimpunan">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_5_set.py">
         <p><b>Operasi Himpunan.</b></p>
+  </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## BAB 4 FUNGSI (FUNCTION)
+**Fungsi  (function)** adalah  blok  kode  yang dapat dipanggil berkali-kali untuk melakukan tugas tertentu. Fungsi membantu membuat kode lebih terstruktur, mudah dibaca, dan dapat digunakan ulang (reusable). Di Python, fungsi didefinisikan dengan kata kunci def.
+
+**Bentuk umum fungsi:**
+```bash
+def nama_fungsi(parameter1, parameter2, ...): 
+    # blok kode fungsi 
+    return nilai_kembali  # opsional 
+``` 
+Fungsi dapat memiliki parameter (nilai masukan) dan return value (nilai keluaran). Jika fungsi tidak memiliki return, secara otomatis akan mengembalikan None. Parameter dapat diberi nilai default sehingga tidak wajib diisi saat pemanggilan.
+
+<table>
+  <tr>
+    <td width="60%">
+      <h3>4.1  Fungsi Konversi Suhu (<code>latihan4_1_suhu.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah fungsi untuk mengkonversi suhu antara Celcius, Fahrenheit, dan Reamur menggunakan tiga fungsi terpisah.</li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+def celcius_to_fahrenheit(c): 
+    return (c * 9/5) + 32 
+def celcius_to_reamur(c): 
+    return c * 4/5 
+def celcius_to_kelvin(c): 
+    return c + 273.15 
+
+print("+==================================+")
+print("|           Konversi Suhu          |")
+print("|    (Celcius, Reamur, Kelvin)     |")
+print("+==================================+")
+c = float(input(" Masukkan suhu dalam Celcius: ")) 
+  
+print("+==================================+")
+print("|          HasilKonversi           |")
+print("+==================================+")
+print(f"|        {c}°C = {celcius_to_fahrenheit(c):6.2f}°F         |") 
+print(f"|        {c}°C = {celcius_to_reamur(c):6.2f}°R         |") 
+print(f"|        {c}°C = {celcius_to_kelvin(c):6.2f} K         |") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KonversiSuhu.png" alt="Pratinjau_ProgramKonversiSuhu">
+      
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_1_suhu.py">
+        <p><b>Program Konversi Suhu.</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>4.2 Fungsi Cek Bilangan Prima (<code>latihan4_2_prima.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah fungsi yang mengembalikan True jika sebuah bilangan adalah prima, dan False jika bukan. Gunakan fungsi tersebut untuk mencetak bilangan prima dari 1 sampai N. </li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+def is_prima(n): 
+    if n < 2: 
+        return False 
+    for i in range(2, int(n ** 0.5) + 1): 
+          if n % i == 0: 
+                return False 
+    return True 
+
+print("+=====================================+")
+print("|        Daftar Bilangan Prima        |")
+print("+=====================================+")
+batas = int(input("     Masukkan batas atas: ")) 
+
+print("+=====================================+")
+print(f"|Bilangan prima dari 1 sampai {batas:7}:|")
+print("+=====================================+")
+
+hasil = [] 
+for i in range(1, batas + 1): 
+     if is_prima(i): 
+         hasil.append(i) 
+
+print(f"| {hasil} |") 
+print("+-------------------------------------+")
+print(f"|       Total: {len(hasil):2} bilangan prima      |") 
+print("+-------------------------------------+")
+print()
+print("+=====================================+")
+print("|  Dosen: Bpk. Yusri Ikhwani, M.Kom   |")
+print("|    2510010102 - M. Rizky Rinaldy    |")
+print("+=====================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/BilanganPrima.png" alt="Pratinjau_ProgramBilanganPrima">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_2_prima.py">
+        <p><b>Program Pencari Bilangan Prima.</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>4.3 Fungsi dengan Default Parameter (<code>latihan4_3_diskon.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah  fungsi  penghitung  harga  setelah  diskon  dengan  parameter  default.  Diskon  default  10%, pajak default 11%.</li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+def hitung_harga(harga_awal, diskon=10, pajak=11): 
+    potongan = harga_awal * diskon / 100 
+    setelah_diskon = harga_awal - potongan 
+    nilai_pajak = setelah_diskon * pajak / 100 
+    total = setelah_diskon + nilai_pajak 
+    return total, potongan, nilai_pajak 
+
+print("+==================================+")
+print("|         Kalkulator Harga         |")
+print("+==================================+")
+
+harga = float(input("   Harga barang   : ")) 
+d     = float(input("   Diskon (%)     : ")) 
+  
+total, pot, pjk = hitung_harga(harga, d) 
+
+print("+==================================+")
+print("|        Hasil Perhitungan         |")
+print("+==================================+")
+print(f"| Harga Awal      : Rp {harga:11,.0f} |") 
+print(f"| Potongan        : Rp {pot:11,.0f} |") 
+print(f"| Pajak (11%)     : Rp {pjk:11,.0f} |") 
+print(f"| Total Bayar     : Rp {total:11,.0f} |") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorHarga.png" alt="Pratinjau_ProgramKalkulatorHarga">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_3_diskon.py">
+        <p><b>Program Kalkulator Harga</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>4.4 Fungsi Rekursif Faktorial (<code>latihan4_4_rekursif.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> BBuatlah  fungsi  rekursif  untuk  menghitung  faktorial.  Fungsi  rekursif  adalah  fungsi  yang memanggil dirinya sendiri.</li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+def faktorial(n): 
+    if n <= 1: 
+        return 1 
+    return n * faktorial(n - 1) 
+  
+def pangkat(basis, eksponen): 
+    if eksponen == 0: 
+        return 1 
+    return basis * pangkat(basis, eksponen - 1) 
+
+print("+==================================+")
+print("|          Fungsi Rekursif         |")
+print("+==================================+")
+n = int(input("     Hitung faktorial dari: ")) 
+b = int(input("     Basis pangkat        : ")) 
+e = int(input("     Eksponen pangkat     : ")) 
+  
+print("+==================================+")
+print("|        Hasil Perhitungan         |")
+print("+==================================+")
+print(f"|      {n:>6}!  = {faktorial(n):<10}       |") 
+print(f"|       {b:3}^{e:<3} = {pangkat(b, e):<10}       |") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/FungsiRekursif.png" alt="Pratinjau_FungsiRekursif">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_4_rekursif.py">
+        <p><b>Menghitung Fungsi Rekursif</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+  <td width="60%">
+      <h3>4.5 Kalkulator Fungsional (<code>latihan4_5_kalkulator.py</code>)</h3>
+      <ul>
+        <li><b>Perulangan (Looping)</b></li>
+        <li><b>Soal: </b> Buatlah kalkulator yang memanfaatkan beberapa fungsi untuk operasi matematika. Setiap operasi ditangani oleh fungsi terpisah.</li>
+        <li><b>SourceCode:</b> 
+            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
+              <code>
+def tambah(a, b):    return a + b
+def kurang(a, b):    return a - b 
+def kali(a, b):      return a * b 
+def bagi(a, b): 
+    if b == 0: 
+        return None 
+    return a / b 
+  
+def tampilkan_menu(): 
+    print("+==================================+")
+    print("|       Kalkulator Sederhana       |")
+    print("+==================================+")
+    print("| 1. Tambah                        |") 
+    print("| 2. Kurang                        |") 
+    print("| 3. Kali                          |") 
+    print("| 4. Bagi                          |") 
+    print("| 5. Keluar                        |") 
+    print("+----------------------------------+")
+  
+while True: 
+    tampilkan_menu() 
+    pilih = input("             Pilihan : ") 
+    if pilih == "5": 
+        print("+----------------------------------+")
+        print("|          Terima kasih!           |")
+        print("+----------------------------------+")
+        break 
+    if pilih not in "1234": 
+        print("+----------------------------------+")
+        print("|      Pilihan tidak valid!        |") 
+        print("+----------------------------------+")
+        continue 
+  
+    a = float(input("       Angka pertama : ")) 
+    b = float(input("       Angka kedua   : ")) 
+  
+    if pilih == "1":   hasil = tambah(a, b); op = "+" 
+    elif pilih == "2": hasil = kurang(a, b); op = "-" 
+    elif pilih == "3": hasil = kali(a, b);   op = "x" 
+    else:              hasil = bagi(a, b);   op = "/" 
+    
+    print("+==================================+")
+    print("|        Hasil Perhitungan         |")
+    print("+==================================+")
+    if hasil is None: 
+         print("| Error: Pembagian dengan nol! |") 
+    else: 
+         print(f"|Hasil:{a:6} {op} {b:<6} = {hasil:10}|") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+              </code>
+            </pre>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorSederhana.png" alt="Pratinjau_KalkulatorSederhana">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_5_kalkulator.py">
+        <p><b>Kalkulator Sederhana.</b></p>
   </a>
     </td>
   </tr>
