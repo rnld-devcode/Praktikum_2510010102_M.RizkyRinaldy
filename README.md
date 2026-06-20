@@ -1180,6 +1180,266 @@ input()
 
 ---
 
+## BAB 5 ALGORITMA DAN LOGIKA PEMROGRAMAN
+**Algoritma** adalah urutan langkah-langkah logis untuk menyelesaikan suatu masalah. Algoritma yang baik  harus  memenuhi  beberapa  kriteria:  memiliki  input  dan  output  yang  jelas,  efektif  (dapat dilaksanakan), terbatas (finite), dan tidak ambigu. Pada  bab  ini  akan  dibahas  beberapa  algoritma  klasik  yang  sering  digunakan,  yaitu  algoritma pencarian (searching) dan pengurutan (sorting). Linear Search mencari elemen satu per satu hingga ditemukan, sedangkan Bubble Sort mengurutkan data dengan membandingkan pasangan elemen 
+yang berdekatan. 
+
+<table>
+  <tr>
+    <td width="60%">
+      <h3>5.1 Linear Search (<code>latihan5_1_linear_search.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Implementasikan algoritma Linear Search untuk mencari posisi sebuah elemen dalam sebuah list. </li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+print("+==================================+")
+print("|     Algoritma Linear Search      |")
+print("+==================================+")
+data =  [15, 27, 8, 42, 33, 19, 5, 66, 21] 
+print(f"|             Data                |") 
+print(f"|{data}|") 
+print("+----------------------------------+")
+target = int(input("            Cari angka: ")) 
+posisi = linear_search(data, target) 
+
+print("+----------------------------------+")
+if posisi != -1: 
+    print(f"|Angka {target:2} ditemukan pd indeks ke-{posisi:2}|") 
+else: 
+    print(f"| Angka {target} TIDAK ditemukan dalam data|")
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input()
+               </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/AlgoritmaLinearSearch.png.png" alt="Pratinjau_AlgoritmaLinearSearch">
+      
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_1_linear_search.py">
+        <p align="center"><b>Algoritma Linear Search</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>5.2 Bubble Sort (<code>latihan5_2_bubble_sort.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Implementasikan  algoritma  Bubble  Sort  untuk  mengurutkan  data  secara  ascending  (dari  kecil  ke besar). Program juga menampilkan tahapan pengurutan.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+def bubble_sort(data): 
+    n = len(data) 
+    langkah = 1 
+    for i in range(n): 
+        swap = False 
+        for j in range(0, n - i - 1): 
+            if data[j] > data[j + 1]: 
+                data[j], data[j + 1] = data[j + 1], data[j] 
+                swap = True 
+        print(f"|Iterasi {langkah:2}: {data}|") 
+        langkah += 1 
+        if not swap: 
+            break 
+    return data 
+
+print("+==============================================+")
+print("|             Algoritma Bubble Sort            |")
+print("+==============================================+")
+data =  [15, 27, 8, 42, 33, 19, 5, 66, 21] 
+print(f"|                   Data Awal                  |") 
+print(f"|      {data}      |") 
+print("+----------------------------------------------+")
+
+hasil = bubble_sort(data.copy()) 
+
+print("+----------------------------------------------+")
+print(f"|                  Data Akhir                  |") 
+print(f"|      {hasil}      |")
+print("+----------------------------------------------+")
+print()
+print("+==============================================+")
+print("|       Dosen: Bpk. Yusri Ikhwani, M.Kom       |")
+print("|         2510010102 - M. Rizky Rinaldy        |")
+print("+==============================================+")
+
+input()
+              </code></pre>
+          </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/AlgoritmaLinearBubbleSort.png.png" alt="Pratinjau_AlgoritmaBubbleSort">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_2_bubble_sort.py">
+        <p align="center"><b>Algoritma Bubble Sort</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>5.3 FPB dan KPK (Algoritma Euclidean) (<code>latihan5_3_fpb_kpk.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah program yang mencari FPB (Faktor Persekutuan Terbesar) menggunakan algoritma Euclidean, lalu gunakan untuk menghitung KPK.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+def fpb(a, b): 
+    while b != 0: 
+        a, b = b, a % b 
+    return a 
+  
+def kpk(a, b): 
+    return (a * b) // fpb(a, b) 
+
+print("+==================================+")
+print("|      Kalkulator FPB dan KPK      |")
+print("+==================================+")
+x = int(input("     Bilangan pertama: ")) 
+y = int(input("     Bilangan kedua  : ")) 
+  
+print("+----------------------------------+")
+print(f"|     FPB({x:3}, {y:<3}) =  {fpb(x, y):<6}      |") 
+print(f"|     KPK({x:3}, {y:<3}) =  {kpk(x, y):<6}      |")
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorFPBdanKPK.png" alt="Pratinjau_KalkulatorFPB&KPK">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_3_fpb_kpk.py">
+        <p align="center"><b>Kalkulator FPB & KPK</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>5.4 Palindrom (<code>latihan5_4_palindrom.py</code>)</h3>
+      <ul>
+        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Soal: </b> Buatlah program yang memeriksa apakah suatu kata atau kalimat adalah palindrom (dibaca sama dari depan maupun belakang).</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+def is_palindrom(teks): 
+    bersih = teks.replace(" ", "").lower() 
+    return bersih == bersih[::-1] 
+
+print("+==================================+")
+print("|        Pengecek Palindrom        |")
+print("+==================================+")
+teks = input("   Masukkan kata/kalimat: ") 
+if is_palindrom(teks): 
+   print(f"  '{teks:11}' adalah PALINDROM") 
+else: 
+   print(f"| '{teks:11}' BUKAN palindrom |") 
+
+print("+------------ Demo ----------------+")
+contoh = ["tamat", "katak", "python", "malam", "saya"] 
+for c in contoh: 
+   status = "YA" if is_palindrom(c) else "BUKAN" 
+   print(f"| '{c:11}' -> {status:5} palindrom |") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PengecekanPalindrom.png" alt="Pratinjau_PengecekanPalindrom">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_4_palindrom.py">
+        <p align="center"><b>Pengecekan Palindrom</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+  <td width="60%">
+      <h3>5.5 Konversi Bilangan Desimal ke Biner (<code>latihan5_5_biner.py</code>)</h3>
+      <ul>
+        <li><b>Perulangan (Looping)</b></li>
+        <li><b>Soal: </b> Buatlah program yang mengkonversi bilangan desimal menjadi biner menggunakan metode pembagian berturut-turut.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+def desimal_to_biner(n): 
+    if n == 0: 
+        return "0" 
+    biner = "" 
+    proses = [] 
+    while n > 0: 
+        sisa = n % 2 
+        proses.append(f"{n:8} / 2 = {n//2:<8} sisa {sisa:<1}  |") 
+        biner = str(sisa) + biner 
+        n = n // 2 
+    return biner, proses 
+  
+print("+==================================+")
+print("|    Konversi Desimal ke Biner     |")
+print("+==================================+")
+n = int(input("   Masukkan bilangan desimal: ")) 
+  
+biner, proses = desimal_to_biner(n) 
+
+print("+----------------------------------+") 
+print("|         Proses konversi:         |") 
+print("+----------------------------------+")
+for p in proses: 
+    print(f"|  {p}") 
+print("+----------------------------------+")
+print(f"| Hasil     : {biner:12} (biner) |") 
+print(f"| Verifikasi: {int(biner, 2):<10} (desimal) |") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KonversiDesimalKeBiner.png" alt="Pratinjau_KonversiDesimalkeBiner">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_5_biner.py">
+        <p align="center"><b>Konversi Desimal ke Biner.</b></p>
+  </a>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 💻 Prasyarat & Lingkungan Pengembangan
 
 Untuk mengompilasi dan menjalankan program-program di atas, Anda memerlukan:
@@ -1200,7 +1460,7 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    
 2. **Jalankan file:**
    ```bash
-  python namafile.py
+   python namafile.py
    ```
    contoh menjalankan file latihan1_1_kelulusan.py
    ```bash
