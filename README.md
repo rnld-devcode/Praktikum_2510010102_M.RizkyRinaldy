@@ -1106,39 +1106,40 @@ input()
         <li><b>Soal: </b> Buatlah kalkulator yang memanfaatkan beberapa fungsi untuk operasi matematika. Setiap operasi ditangani oleh fungsi terpisah.</li>
         <li><b>SourceCode:</b> 
             <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
-def tambah(a, b):    return a + b
-def kurang(a, b):    return a - b 
-def kali(a, b):      return a * b 
-def bagi(a, b): 
-    if b == 0: 
-        return None 
-    return a / b 
-  
-def tampilkan_menu(): 
-    print("+==================================+")
-    print("|       Kalkulator Sederhana       |")
-    print("+==================================+")
-    print("| 1. Tambah                        |") 
-    print("| 2. Kurang                        |") 
-    print("| 3. Kali                          |") 
-    print("| 4. Bagi                          |") 
-    print("| 5. Keluar                        |") 
-    print("+----------------------------------+")
-  
-while True: 
-    tampilkan_menu() 
-    pilih = input("             Pilihan : ") 
-    if pilih == "5": 
+    <code>
+
+    def tambah(a, b):    return a + b
+    def kurang(a, b):    return a - b 
+    def kali(a, b):      return a * b 
+    def bagi(a, b): 
+        if b == 0: 
+            return None 
+        return a / b 
+      
+    def tampilkan_menu(): 
+        print("+==================================+")
+        print("|       Kalkulator Sederhana       |")
+        print("+==================================+")
+        print("| 1. Tambah                        |") 
+        print("| 2. Kurang                        |") 
+        print("| 3. Kali                          |") 
+        print("| 4. Bagi                          |") 
+        print("| 5. Keluar                        |") 
         print("+----------------------------------+")
-        print("|          Terima kasih!           |")
-        print("+----------------------------------+")
-        break 
-    if pilih not in "1234": 
-        print("+----------------------------------+")
-        print("|      Pilihan tidak valid!        |") 
-        print("+----------------------------------+")
-        continue 
+      
+    while True: 
+        tampilkan_menu() 
+        pilih = input("             Pilihan : ") 
+        if pilih == "5": 
+            print("+----------------------------------+")
+            print("|          Terima kasih!           |")
+            print("+----------------------------------+")
+            break 
+        if pilih not in "1234": 
+            print("+----------------------------------+")
+            print("|      Pilihan tidak valid!        |") 
+            print("+----------------------------------+")
+            continue 
   
     a = float(input("       Angka pertama : ")) 
     b = float(input("       Angka kedua   : ")) 
@@ -1155,15 +1156,15 @@ while True:
          print("| Error: Pembagian dengan nol! |") 
     else: 
          print(f"|Hasil:{a:6} {op} {b:<6} = {hasil:10}|") 
-print("+----------------------------------+")
-print()
-print("+==================================+")
-print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
-print("|   2510010102 - M. Rizky Rinaldy  |")
-print("+==================================+")
+    print("+----------------------------------+")
+    print()
+    print("+==================================+")
+    print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+    print("|   2510010102 - M. Rizky Rinaldy  |")
+    print("+==================================+")
 
-input()
-              </code>
+    input()
+  </code>
             </pre>
         </li>
       </ul>
