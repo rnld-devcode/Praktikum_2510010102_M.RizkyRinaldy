@@ -52,9 +52,9 @@ meliputi and, or, dan not.
       <ul>
         <li><b>Percabangan (Selection)</b></li>
         <li><b>Soal: </b> Buatlah program yang menentukan status kelulusan mahasiswa berdasarkan nilai akhir. Jika nilai >= 60 maka dinyatakan LULUS, selain itu TIDAK LULUS. </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+==================================+")
 print("|       Program Cek Kelulusan      |")
 print("+==================================+")
@@ -77,8 +77,8 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
@@ -86,7 +86,7 @@ input()
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramCekKelulusan.png" alt="Pratinjau_ProgramCekKelulusan">
       
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_1_kelulusan.py">
-        <p><b>Program Pengecekan Kelulusan.</b></p>
+        <p align="center"><b>Program Pengecekan Kelulusan.</b></p>
   </a>
     </td>
   </tr>
@@ -96,9 +96,9 @@ input()
       <ul>
         <li><b>Percabangan (Selection)</b></li>
         <li><b>Soal: </b> Buatlah program yang mengkonversi nilai angka menjadi nilai huruf dengan ketentuan: A (>=85), B (70-84), C (55-69), D (40-54), E (<\40). </li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+==================================+")
 print("|  Konversi Nilai Angka ke Huruf   |")
 print("+==================================+")
@@ -132,15 +132,15 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramKonversiNilaiHuruf.png" alt="Pratinjau_ProgramKonversiNilaiHuruf">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_2_nilaihuruf.py">
-        <p><b>Program Konversi Nilai Ke Huruf.</b></p>
+        <p align="center"><b>Program Konversi Nilai Ke Huruf.</b></p>
   </a>
     </td>
   </tr>
@@ -150,9 +150,9 @@ input()
       <ul>
         <li><b>Percabangan (Selection)</b></li>
         <li><b>Soal: </b> Buatlah  program  yang  menghitung  BMI dengan  rumus  BMI  =  berat  /  (tinggi**2).  Kategori:  Kurus (<\18.5), Normal (18.5-24.9), Gemuk (25-29.9), Obesitas (>=30).</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+==================================+")
 print("|         Kalkulator BMI           |")
 print("+==================================+")
@@ -181,15 +181,15 @@ print("|   2510010102 - M. Rizky Rinaldy  |")
 print("+==================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorBMI.png" alt="Pratinjau_KalkulatorBMI">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_3_bmi.py">
-        <p><b>Kalkulator BMI (Body Mass Index).</b></p>
+        <p align="center"><b>Kalkulator BMI (Body Mass Index).</b></p>
   </a>
     </td>
   </tr>
@@ -199,9 +199,9 @@ input()
       <ul>
         <li><b>Percabangan (Selection)</b></li>
         <li><b>Soal: </b>  Buatlah program harga tiket bioskop. Harga normal Rp. 50.000. Diskon 50% untuk umur <\12 atau >60 tahun. Diskon 20% untuk pelajar (input Y/T).</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+====================================+")
 print("|        Loket Tiket Bioskop         |")
 print("+====================================+")
@@ -235,15 +235,15 @@ print("|    2510010102 - M. Rizky Rinaldy   |")
 print("+====================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ProgramLoketTiket.png" alt="Pratinjau_LoketTiket">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_4_tiket.py">
-        <p><b>Program Tiket Bioskop dengan Diskon.</b></p>
+        <p align="center"><b>Program Tiket Bioskop dengan Diskon.</b></p>
   </a>
     </td>
   </tr>
@@ -253,9 +253,9 @@ input()
       <ul>
         <li><b>Percabangan (Selection)</b></li>
         <li><b>Soal: </b> Buatlah program yang menerima input tiga sisi segitiga kemudian menentukan jenisnya: sama sisi, sama kaki, atau sembarang. Program juga memvalidasi apakah ketiga sisi membentuk segitiga yang valid.</li>
-        <li><b>SourceCode:</b> 
-            <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;">
-              <code>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
 print("+====================================+")
 print("|      Penentu Jenis Segitiga        |")
 print("+====================================+")
@@ -305,15 +305,15 @@ print("|    2510010102 - M. Rizky Rinaldy   |")
 print("+====================================+")
 
 input()
-              </code>
-            </pre>
+              </code></pre>
+            </details>
         </li>
       </ul>
     </td>
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PenentuJenisSegitiga.png" alt="Pratinjau_PenentuJenisSegitiga">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan1_5_segitiga.py">
-        <p><b>Program Penentu Jenis Segitiga.</b></p>
+        <p align="center"><b>Program Penentu Jenis Segitiga.</b></p>
   </a>
     </td>
   </tr>
@@ -371,7 +371,7 @@ input()
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KamusPerkalian.png" alt="Pratinjau_ProgramKamusPerkalian">
       
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_1_perkalian.py">
-        <p><b>Program Tabel Perkalian.</b></p>
+        <p align="center"><b>Program Tabel Perkalian.</b></p>
   </a>
     </td>
   </tr>
@@ -421,7 +421,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorFaktorial.png" alt="Pratinjau_ProgramMenghitungFaktorial">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_2_faktorial.py">
-        <p><b>Program Menghitung Faktorial.</b></p>
+        <p align="center"><b>Program Menghitung Faktorial.</b></p>
   </a>
     </td>
   </tr>
@@ -463,7 +463,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/DeretFibonacci.png" alt="Pratinjau_DeretFibonacci">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_3_fibonacci.py">
-        <p><b>Deret Fibonacci.</b></p>
+        <p align="center"><b>Deret Fibonacci.</b></p>
   </a>
     </td>
   </tr>
@@ -517,7 +517,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/GameTebakAngka.png" alt="Pratinjau_GameTebakAngka">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_4_tebak_angka.py">
-        <p><b>Game Tebak Angka Random</b></p>
+        <p align="center"><b>Game Tebak Angka Random</b></p>
   </a>
     </td>
   </tr>
@@ -564,7 +564,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PiramidaAngka.png" alt="Pratinjau_PolaPiramidaAngka">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan2_5_piramida.py">
-        <p><b>Program Pola Piramida Angka.</b></p>
+        <p align="center"><b>Program Pola Piramida Angka.</b></p>
   </a>
     </td>
   </tr>
@@ -666,7 +666,7 @@ input()
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ListBelanja.png" alt="Pratinjau_ProgramDaftarBelanjaan">
       
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_1_list_belanja.py">
-        <p><b>Program Daftar Belanjaan.</b></p>
+        <p align="center"><b>Program Daftar Belanjaan.</b></p>
   </a>
     </td>
   </tr>
@@ -716,7 +716,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/StatistikNilaiMahasiswa.png" alt="Pratinjau_ProgramStatistik">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_2_statistik.py">
-        <p><b>Program Statistika Nilai Mahasiswa.</b></p>
+        <p align="center"><b>Program Statistika Nilai Mahasiswa.</b></p>
   </a>
     </td>
   </tr>
@@ -774,7 +774,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/DataMahasiswa.png" alt="Pratinjau_ProgramDataMahasiswa">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_3_dictionary.py">
-        <p><b>Program Data Mahasiswa</b></p>
+        <p align="center"><b>Program Data Mahasiswa</b></p>
   </a>
     </td>
   </tr>
@@ -823,7 +823,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/FrekuensiHuruf.png" alt="Pratinjau_FrekuensiHuruf">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_4_frekuensi.py">
-        <p><b>Menghitung Frekuensi Huruf</b></p>
+        <p align="center"><b>Menghitung Frekuensi Huruf</b></p>
   </a>
     </td>
   </tr>
@@ -872,7 +872,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/OperasiHimpunan.png" alt="Pratinjau_OperasiHimpunan">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan3_5_set.py">
-        <p><b>Operasi Himpunan.</b></p>
+        <p align="center"><b>Operasi Himpunan.</b></p>
   </a>
     </td>
   </tr>
@@ -937,7 +937,7 @@ input()
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KonversiSuhu.png" alt="Pratinjau_ProgramKonversiSuhu">
       
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_1_suhu.py">
-        <p><b>Program Konversi Suhu.</b></p>
+        <p align="center"><b>Program Konversi Suhu.</b></p>
   </a>
     </td>
   </tr>
@@ -991,7 +991,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/BilanganPrima.png" alt="Pratinjau_ProgramBilanganPrima">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_2_prima.py">
-        <p><b>Program Pencari Bilangan Prima.</b></p>
+        <p align="center"><b>Program Pencari Bilangan Prima.</b></p>
   </a>
     </td>
   </tr>
@@ -1043,7 +1043,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorHarga.png" alt="Pratinjau_ProgramKalkulatorHarga">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_3_diskon.py">
-        <p><b>Program Kalkulator Harga</b></p>
+        <p align="center"><b>Program Kalkulator Harga</b></p>
   </a>
     </td>
   </tr>
@@ -1094,7 +1094,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/FungsiRekursif.png" alt="Pratinjau_FungsiRekursif">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_4_rekursif.py">
-        <p><b>Menghitung Fungsi Rekursif</b></p>
+        <p align="center"><b>Menghitung Fungsi Rekursif</b></p>
   </a>
     </td>
   </tr>
@@ -1172,7 +1172,7 @@ input()
     <td width="40%">
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorSederhana.png" alt="Pratinjau_KalkulatorSederhana">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan4_5_kalkulator.py">
-        <p><b>Kalkulator Sederhana.</b></p>
+        <p align="center"><b>Kalkulator Sederhana.</b></p>
   </a>
     </td>
   </tr>
