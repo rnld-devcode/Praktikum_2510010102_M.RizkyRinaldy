@@ -1,0 +1,5 @@
+========== BIODATA ==========
+Nama   : M. Rizky Rinaldy
+Umur   : 23 Tahun
+Alamat : Banjarbaru
+Hobi   : Coding
