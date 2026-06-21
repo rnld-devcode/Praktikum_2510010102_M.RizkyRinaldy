@@ -172,7 +172,6 @@ def proses_pembayaran(keranjang):
     cetak_garis_tengah(LEBAR_PRODUK)
     print(f"│  {'TOTAL BELANJA':<54} {format_rupiah(total):>20} │")
 
-    # 5. Hitung Diskon Otomatis di dalam Box
     diskon = 0
     if total >= 500000:
         diskon = total * 0.10

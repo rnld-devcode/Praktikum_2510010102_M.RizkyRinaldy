@@ -1,0 +1,20 @@
+==========================================
+           TOKO KELONTONG RIZKY
+     Jl. Ahmad Yani Km.33 Banjarbaru
+==========================================
+No. Transaksi : TRX-20260621180716
+Tanggal       : 21-06-2026 18:07:16
+------------------------------------------
+Nama                  Qty         Subtotal
+------------------------------------------
+AQUA 600ml Botol       24       Rp 108.000
+Le Minerale 1500ml      5        Rp 37.500
+------------------------------------------
+Total                           Rp 145.500
+Total bayar                     Rp 145.500
+Tunai                           Rp 200.000
+Kembalian                        Rp 54.500
+==========================================
+      Terima kasih atas kunjungan Anda
+         Selamat berbelanja kembali
+==========================================

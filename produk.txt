@@ -1,0 +1,9 @@
+AQ-330|AQUA 330ml Botol|2500
+AQ-600|AQUA 600ml Botol|4500
+AQ-150|AQUA 1500ml Botol|8000
+LM-330|Le Minerale 330ml|2400
+LM-600|Le Minerale 600ml|4200
+LM-150|Le Minerale 1500ml|7500
+CL-330|Cleo 330ml Botol|2300
+CL-550|Cleo 550ml Botol|4000
+CL-120|Cleo 1200ml Botol|6800
