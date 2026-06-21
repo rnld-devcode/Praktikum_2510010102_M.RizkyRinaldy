@@ -2,16 +2,33 @@
 import os
 from datetime import datetime
 
-# ========== TAMBAHAN ==========
-def bersihkan_layar():
-    os.system('cls' if os.name == 'nt' else 'clear')
-
 # ========== FILE KONFIGURASI ==========
 FILE_PRODUK     = "produk.txt"
 FILE_RIWAYAT    = "riwayat_transaksi.txt"
 FOLDER_STRUK    = "struk"
 
+# ========== TAMBAHAN ==========
+LEBAR_MENU = 80
+LEBAR_STRUK = 42
+LEBAR_PRODUK = 80
+LEBAR_RIWAYAT = 80
+
+def cetak_garis_atas(lebar):
+    print(f"┌{'─' * (lebar - 2)}┐")
+
+def cetak_garis_tengah(lebar):
+    print(f"├{'─' * (lebar - 2)}┤")
+
+def cetak_garis_bawah(lebar):
+    print(f"└{'─' * (lebar - 2)}┘")
+
+def format_judul(teks, lebar_maksimal, karakter_pengisi=" "):
+    return teks.center(lebar_maksimal, karakter_pengisi)
+
 # ========== UTILITAS ==========
+def bersihkan_layar():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def pastikan_folder():
     if not os.path.exists(FOLDER_STRUK):
         os.makedirs(FOLDER_STRUK)
@@ -45,51 +62,80 @@ def simpan_produk(produk):
             f.write(f"{kode}|{info['nama']}|{info['harga']}\n")
 
 def tambah_produk(produk):
-    print("\n--- Tambah Produk ---")
-    kode = input("Kode produk   : ").upper()
+    bersihkan_layar()
+    cetak_garis_atas(LEBAR_MENU)
+    judul_sub = format_judul("TAMBAH PRODUK BARU", LEBAR_MENU - 4)
+    print(f"│ {judul_sub} │")
+    cetak_garis_tengah(LEBAR_MENU)
+    print(f"│ {'Silakan masukkan data produk di bawah ini:':^{LEBAR_MENU - 4}} │")
+    cetak_garis_tengah(LEBAR_MENU)
+    print("│")
+    kode = input("│  🔑 Kode produk   : ").upper()[:10]
+    
     if kode in produk:
-        print(f" ❌ Kode {kode} sudah ada! ")
+        print("│")
+        pesan_gagal = f"❌ Gagal! Kode '{kode}' sudah terdaftar!"
+        print(f"│  {pesan_gagal}")
+        print("│")
+        cetak_garis_bawah(LEBAR_MENU)
+        input("\nTekan Enter untuk kembali...")
         return
-    nama  = input("Nama Produk   : ")
-    harga = input_angka("Harga         : ")
+        
+    nama = input("│  📦 Nama Produk   : ")[:25] # Membatasi nama produk maks 25 karakter
+    harga = input_angka("│  💵 Harga         : ")
+    print("│")
+    cetak_garis_tengah(LEBAR_MENU)
+    print("│")
     produk[kode] = {"nama": nama, "harga": harga}
     simpan_produk(produk)
-    print(f" ✔️ Produk '{nama}' ditambahkan")
+    print(f"│  ✔️   Sukses! Produk '{nama}' berhasil ditambahkan.")
+    print("│")
+    cetak_garis_bawah(LEBAR_MENU)
+    
     input("\nTekan Enter untuk kembali ke menu...")
 
 def tampil_produk(produk):
     if len(produk) == 0:
         print("\n(Belum ada produk)")
         return
-    print("\n" + "=" * 55)
-    print(f"{'KODE':<8}{'NAMA PRODUK':<30}{'HARGA':>15}")
-    print("=" * 55)
+    cetak_garis_atas(LEBAR_PRODUK)
+    print(f"│ {'DAFTAR PRODUK TOKO RIZKY':^{LEBAR_PRODUK - 4}} │")
+    cetak_garis_tengah(LEBAR_PRODUK)
+    print(f"│ {'KODE':<10} │ {'NAMA PRODUK':<40} │ {'HARGA':>20} │")
+    cetak_garis_tengah(LEBAR_PRODUK)
     for kode, info in produk.items():
-        print(f"{kode:<8}{info['nama']:<30}{format_rupiah(info['harga']):>15}")
-    print("=" * 55)
-    input("\nTekan Enter untuk kembali ke menu...")
+        nama_produk = info['nama'][:40] 
+        print(f"│ {kode:<10} │ {nama_produk:<40} │ {format_rupiah(info['harga']):>20} │")
+    cetak_garis_bawah(LEBAR_PRODUK)
+    input()
 
 # ========== TRANSAKSI ==========
 def transaksi(produk):
     bersihkan_layar()
     if len(produk) == 0:
         print("\n ❌ Tambahkan produk terlebih dahulu!")
+        input("\nTekan Enter untuk kembali...")
         return
-    keranjang = []
-    print("\n========== TRANSAKSI BARU ==========")
+        
+    keranjang = []    
     tampil_produk(produk)
-
+    cetak_garis_atas(LEBAR_PRODUK)
+    judul_sub = format_judul("TRANSAKSI BARU TOKO RIZKY", LEBAR_PRODUK - 4)
+    print(f"│ {judul_sub} │")
     while True:
-        kode = input("\nKode produk (X=selesai): ").upper()
+        cetak_garis_tengah(LEBAR_PRODUK)
+        print(f"│  🔑 Kode produk (X=selesai)\033[55G: ", end="")
+        kode = input().upper()
         if kode == "X":
             break
         if kode not in produk:
-            print(f" ❌ Kode '{kode}' tidak ditemukan")
+            print(f"│  ❌ Kode '{kode}' tidak ditemukan\n│")
             continue
         
-        jumlah = input_angka(f"Jumlah beli '{produk[kode]['nama']}': ")
+        print(f"│  📦 Jumlah beli '{produk[kode]['nama']}'\033[55G: ", end="")
+        jumlah = input_angka("")
         if jumlah <= 0:
-            print(" ❌ Jumlah harus positif")
+            print("│  ❌ Jumlah harus positif\n│")
             continue
 
         subtotal = produk[kode]["harga"] * jumlah
@@ -100,43 +146,65 @@ def transaksi(produk):
             "jumlah"    : jumlah,
             "subtotal"  : subtotal,
         })
-        print(f" ✔️ + {jumlah}x {produk[kode]['nama']} ({format_rupiah(subtotal)})")
+        print("|")
+        print(f"│  ✔️   + {jumlah}x {produk[kode]['nama']} ({format_rupiah(subtotal)})")
 
     if len(keranjang) == 0:
-        print("\n(Transaksi dibatalkan - keranjang kosong)")
+        print("│  ❌ Transaksi dibatalkan - keranjang kosong")
+        cetak_garis_bawah(LEBAR_PRODUK)
+        input("\nTekan Enter untuk kembali ke menu...")
         return
     
     proses_pembayaran(keranjang)
 
 def proses_pembayaran(keranjang):
     total = sum(item["subtotal"] for item in keranjang)
-    print("\n--- Ringkasan Belanja ---")
+    print("│")
+    cetak_garis_tengah(LEBAR_PRODUK)
+    print(f"│ {'RINGKASAN BELANJAAN':^{LEBAR_PRODUK - 4}} │")
+    cetak_garis_tengah(LEBAR_PRODUK)
+    
     for item in keranjang:
-        print(f"    {item['nama']} ({item['jumlah']}x) = {format_rupiah(item['subtotal'])}")
-    print(f"    TOTAL: {format_rupiah(total)}")
+        detail_item = f"• {item['nama']} ({item['jumlah']}x)"
+        harga_item = format_rupiah(item['subtotal'])
+        print(f"│  {detail_item:<54} {harga_item:>20} │")
+        
+    cetak_garis_tengah(LEBAR_PRODUK)
+    print(f"│  {'TOTAL BELANJA':<54} {format_rupiah(total):>20} │")
 
-    # Diskon otomatis
+    # 5. Hitung Diskon Otomatis di dalam Box
     diskon = 0
     if total >= 500000:
         diskon = total * 0.10
-        print(f" 🎉 Diskon 10% (belanja >500rb): -{format_rupiah(diskon)}")
+        print(f"│  🎉 Diskon 10% (belanja >500rb)                        -{format_rupiah(diskon):>20} │")
     elif total >= 200000:
         diskon = total * 0.05
-        print(f" 🎉 Diskon 5% (belanja >200rb): -{format_rupiah(diskon)}")
+        print(f"│  🎉 Diskon 5% (belanja >200rb)                         -{format_rupiah(diskon):>20} │")
 
     total_bayar = total - diskon
-
+    if diskon > 0:
+        cetak_garis_tengah(LEBAR_PRODUK)
+        print(f"│  {'TOTAL TAGIHAN NETT':<54} {format_rupiah(total_bayar):>20} │")
+        
+    cetak_garis_tengah(LEBAR_PRODUK)
     while True:
         try:
-            bayar = int(input(f"\nTotal tagihan {format_rupiah(total_bayar)}. Uang diterima: Rp "))
+            print(f"│  💵       Total tagihan\033[55G: {format_rupiah(total_bayar)}")
+            bayar = int(input(f"│           Uang diterima\033[55G: Rp "))
             if bayar < total_bayar:
-                print(f" ❌ Uang kurang Rp {total_bayar - bayar:,}")
+                print(f"│  ❌       Uang kurang\033[55G {format_rupiah(total_bayar - bayar)}│")
                 continue
             break
         except ValueError:
-            print(" ❌ Masukkan angka yang valid")
+            print(f"│ {' ❌ Masukkan angka yang valid':^{LEBAR_PRODUK - 4}}")
 
     kembalian = bayar - total_bayar
+    
+    print("│")
+    print(f"│  ✔️      Kembalian\033[55G: {format_rupiah(kembalian)}")
+    cetak_garis_bawah(LEBAR_PRODUK)
+    
+    # Jalankan cetak struk bawaanmu
     cetak_struk(keranjang, total, diskon, total_bayar, bayar, kembalian)
 
 # ========== STRUK ==========
@@ -148,7 +216,7 @@ def cetak_struk(keranjang, total, diskon, total_bayar, bayar, kembalian):
     baris = []
     baris.append(garis)
     baris.append("           TOKO KELONTONG RIZKY")
-    baris.append("     Jl. Ahmad Yani Km.5 Banjarmasin")
+    baris.append("     Jl. Ahmad Yani Km.33 Banjarbaru")
     baris.append(garis)
     baris.append(f"No. Transaksi : TRX-{id_trx}")
     baris.append(f"Tanggal       : {waktu.strftime('%d-%m-%Y %H:%M:%S')}")
@@ -187,10 +255,13 @@ def cetak_struk(keranjang, total, diskon, total_bayar, bayar, kembalian):
 def tampil_riwayat():
     if not os.path.exists(FILE_RIWAYAT):
         print("\n(Belum ada transaksi)")
+        input("\nTekan Enter untuk kembali...")
         return
-    print("\n" + "=" * 65)
-    print(f"{'ID Transaksi':<20}{'Tanggal':<22}{'Item':>5}{'Total':>18}")
-    print("=" * 65)
+    cetak_garis_atas(LEBAR_RIWAYAT)
+    print(f"│ {'LAPORAN RIWAYAT TRANSAKSI':^{LEBAR_RIWAYAT - 4}} │")
+    cetak_garis_tengah(LEBAR_RIWAYAT)
+    print(f"│ {'ID Transaksi':<20} │ {'Tanggal':<22} │ {'Item':>5} │ {'Total':>20} │")
+    cetak_garis_tengah(LEBAR_RIWAYAT)
     total_semua = 0
     jumlah_trx  = 0
     with open(FILE_RIWAYAT, "r") as f:
@@ -198,24 +269,28 @@ def tampil_riwayat():
             data = baris.strip().split("|")
             if len(data) == 4:
                 id_trx, tgl, total, item = data
-                print(f"TRX-{id_trx:<16}{tgl:<22}{item:>5}{format_rupiah(int(total)):>18}")
-                total_semua += int(total)
+                id_lengkap = f"TRX-{id_trx}"
+                print(f"│ {id_lengkap:<20} │ {tgl:<22} │ {item:>5} │ {format_rupiah(int(float(total))):>20} │")
+                total_semua += int(float(total))
                 jumlah_trx  += 1
-    print("=" * 65)
-    print(f"Total Transaksi: {jumlah_trx}   |   Total Omset: {format_rupiah(total_semua)}")
+    cetak_garis_tengah(LEBAR_RIWAYAT)
+    info_ringkasan = f"Total Transaksi: {jumlah_trx}   │   Total Omset: {format_rupiah(total_semua)}"
+    print(f"│ {info_ringkasan:<{LEBAR_RIWAYAT - 4}} │")
+    cetak_garis_bawah(LEBAR_RIWAYAT)
     input("\nTekan Enter untuk kembali ke menu...")
 
 # ========== MENU UTAMA ==========
 def tampilkan_menu():
-    print("\n" + "=" * 45)
-    print("     APLIKASI KASIR - TOKO RIZKY")
-    print("=" * 45)
-    print("1. Tambah Produk")
-    print("2. Lihat Daftar Produk")
-    print("3. Mulai Transaksi")
-    print("4. Lihat Riwayat Transaksi")
-    print("5. Keluar")
-    print("=" * 45)
+    cetak_garis_atas(LEBAR_MENU)
+    judul_tengah = format_judul("APLIKASI KASIR - TOKO RIZKY", LEBAR_MENU - 4)
+    print(f"│ {judul_tengah} │")
+    cetak_garis_tengah(LEBAR_MENU)
+    print(f"│  1. {'Tambah Produk':<{LEBAR_MENU - 8}} │")
+    print(f"│  2. {'Lihat Daftar Produk':<{LEBAR_MENU - 8}} │")
+    print(f"│  3. {'Mulai Transaksi':<{LEBAR_MENU - 8}} │")
+    print(f"│  4. {'Lihat Riwayat Transaksi':<{LEBAR_MENU - 8}} │")
+    print(f"│  5. {'Keluar':<{LEBAR_MENU - 8}} │")
+    cetak_garis_bawah(LEBAR_MENU)
 
 def main():
     produk = muat_produk()
@@ -223,7 +298,7 @@ def main():
     while True:
         bersihkan_layar()
         tampilkan_menu()
-        pilih = input("Pilihan menu [1-5]: ")
+        pilih = input(" ==> Pilihan menu [1-5]: ")
 
         if   pilih == "1": tambah_produk(produk)
         elif pilih == "2": tampil_produk(produk)
