@@ -2045,6 +2045,61 @@ input()
 
 ---
 
+## BAB 8  MINI PROJECT (STUDI KASUS)
+**Aplikasi Kasir Toko Sederhana**
+
+Pada bagian ini, kita akan membuat sebuah aplikasi kasir sederhana untuk sebuah toko kelontong. 
+Aplikasi  ini  menggabungkan  seluruh  konsep  yang  sudah  dipelajari:  percabangan, perulangan, struktur data, fungsi, pengolahan file, serta error handling. Aplikasi juga dilengkapi fitur cetak struk belanja yang disimpan dalam file teks. 
+
+**Fitur yang tersedia:** 
+1. Tambah barang ke daftar produk. 
+2. Lihat daftar produk. 
+3. Mulai transaksi pembelian (keranjang). 
+4. Hitung  total  dan  proses  pembayaran.  
+5. Cetak  struk  ke  file  teks  dan  layar.  
+6. Lihat  riwayat transaksi. 
+
+<div align="center">
+  <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/TampilanMenu.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><b>Menu Utama Aplikasi</b></p>
+</div>
+<div align="center">
+  <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/MenuTambahProduk.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><b>Menu Tambah Produk</b></p>
+</div>
+<div align="center">
+  <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/MenuDaftarProduk.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><b>Menu Daftar Produk</b></p>
+</div>
+<div align="center">
+  <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/MenuTransaksi.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><b>Menu Transaki Produk</b></p>
+</div>
+</div>
+<div align="center">
+  <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/TampilanStruk.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><b>Struk Transaki</b></p>
+</div>
+<div align="center">
+  <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/LaporanRiwayatTransaksi.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><b>Laporan Riwayat Transaki</b></p>
+</div>
+
+<a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/mini_project_kasir.py">
+        <p align="center"><b>Source Code Program <code>mini_project_kasir.py</code></b></p>
+
+**Penjelasan Struktur Program**
+Program  di  atas  mendemonstrasikan  integrasi  berbagai  konsep  yang  dipelajari  pada  bab-bab sebelumnya.  Struktur  data  Dictionary  digunakan  untuk  menyimpan  produk  dengan  kode  sebagai key. List digunakan untuk keranjang belanja. Fungsi-fungsi dipisah berdasarkan tanggung jawabnya, misalnya tambah_produk, transaksi, dan cetak_struk. 
+
+Pengolahan file diterapkan pada tiga tempat: file  produk.txt menyimpan daftar produk, file 
+riwayat_transaksi.txt  mencatat  semua  transaksi,  dan  folder  struk/  berisi  file  struk  untuk  setiap transaksi. Error handling diterapkan melalui fungsi input_angka yang memvalidasi input user serta blok  try-except  pada  operasi  file.  Percabangan  dan  perulangan  digunakan  pada  hampir  seluruh bagian program untuk mengontrol alur eksekusi. 
+
+**Pengembangan Lanjutan**
+Setelah  memahami  program  ini,  mahasiswa  ditantang  untuk  mengembangkan  fitur  tambahan 
+seperti: manajemen stok barang (otomatis berkurang saat terjual), laporan penjualan harian/bulanan, sistem member dengan poin, kategori produk, fitur edit dan hapus produk, serta export laporan ke format CSV untuk analisis lebih lanjut. 
+
+---
+
 ## 💻 Prasyarat & Lingkungan Pengembangan
 
 Untuk mengompilasi dan menjalankan program-program di atas, Anda memerlukan:
@@ -2052,6 +2107,8 @@ Untuk mengompilasi dan menjalankan program-program di atas, Anda memerlukan:
 * Rekomendasi IDE/Text Editor: **VS Code (Visual Studio Code)**, **PyCharm**, atau **IDLE:** IDE bawaan yang langsung terinstal saat Anda menginstal Python. .
 
 ---
+
+
 
 ## 🚀 Cara Menjalankan Program lewat Terminal
 
@@ -2061,13 +2118,16 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ```bash
     cd C:\Users\rizky\Downloads\
    ```
+   
    > 📌 Note : rizky --> ganti ke nama user sesuai profile di komputer Anda
    
 2. **Jalankan file:**
    ```bash
    python namafile.py
    ```
+
    contoh menjalankan file latihan1_1_kelulusan.py
+
    ```bash
    python latihan1_1_kelulusan.py
    ```

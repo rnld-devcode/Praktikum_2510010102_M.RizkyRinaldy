@@ -1,0 +1,20 @@
+==========================================
+           TOKO KELONTONG RIZKY
+     Jl. Ahmad Yani Km.33 Banjarbaru
+==========================================
+No. Transaksi : TRX-20260621203341
+Tanggal       : 21-06-2026 20:33:41
+------------------------------------------
+Nama                  Qty         Subtotal
+------------------------------------------
+Mie Sedap Goreng        3        Rp 10.500
+AQUA 600ml Botol        1         Rp 4.500
+------------------------------------------
+Total                            Rp 15.000
+Total bayar                      Rp 15.000
+Tunai                            Rp 20.000
+Kembalian                         Rp 5.000
+==========================================
+      Terima kasih atas kunjungan Anda
+         Selamat berbelanja kembali
+==========================================

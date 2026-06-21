@@ -7,3 +7,4 @@ LM-150|Le Minerale 1500ml|7500
 CL-330|Cleo 330ml Botol|2300
 CL-550|Cleo 550ml Botol|4000
 CL-120|Cleo 1200ml Botol|6800
+MI-001|Mie Sedap Goreng|3500
