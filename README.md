@@ -2086,7 +2086,9 @@ Aplikasi  ini  menggabungkan  seluruh  konsep  yang  sudah  dipelajari:  percaba
 </div>
 
 <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/mini_project_kasir.py">
-        <p align="center"><b>Source Code Program <code>mini_project_kasir.py</code></b></p>
+    <p align="center"><b>Source Code Program <code>mini_project_kasir.py</code></b></p>
+</a>
+
 
 **Penjelasan Struktur Program**
 Program  di  atas  mendemonstrasikan  integrasi  berbagai  konsep  yang  dipelajari  pada  bab-bab sebelumnya.  Struktur  data  Dictionary  digunakan  untuk  menyimpan  produk  dengan  kode  sebagai key. List digunakan untuk keranjang belanja. Fungsi-fungsi dipisah berdasarkan tanggung jawabnya, misalnya tambah_produk, transaksi, dan cetak_struk. 
@@ -2118,7 +2120,7 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ```bash
     cd C:\Users\rizky\Downloads\
    ```
-   
+
    > 📌 Note : rizky --> ganti ke nama user sesuai profile di komputer Anda
    
 2. **Jalankan file:**
