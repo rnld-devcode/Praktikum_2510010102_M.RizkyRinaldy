@@ -1757,7 +1757,7 @@ finally:
     <td width="60%">
       <h3>7.1 Validasi Input Numerik (<code>latihan7_1_validasi.py</code>)</h3>
       <ul>
-        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Debugging dan Error Handling</b></li>
         <li><b>Soal: </b> Buatlah program yang meminta input angka dari user. Jika user memasukkan bukan angka, program tidak crash tapi meminta ulang.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -1803,7 +1803,7 @@ input()
     <td width="60%">
       <h3>7.2 Menangani Pembagian Nol (<code>latihan7_2_bagi_nol.py</code>)</h3>
       <ul>
-        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Debugging dan Error Handling</b></li>
         <li><b>Soal: </b> Buatlah program kalkulator pembagian yang dapat menangani pembagian dengan nol (ZeroDivisionError).</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
@@ -1857,7 +1857,7 @@ input()
     <td width="60%">
       <h3>7.3 Menangani File Tidak Ditemukan (<code>latihan7_3_file_error.py</code>)</h3>
       <ul>
-        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Debugging dan Error Handling</b></li>
         <li><b>Soal: </b> BBuatlah  program  yang  mencoba  membaca  sebuah  file.  Jika  file  tidak  ada,  tampilkan  pesan  yang informatif tanpa crash.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
@@ -1920,7 +1920,7 @@ input()
     <td width="60%">
       <h3>7.4 Custom Exception dengan raise (<code>latihan7_4_raise.py</code>)</h3>
       <ul>
-        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Debugging dan Error Handling</b></li>
         <li><b>Soal: </b> Buatlah program validasi umur dengan aturan: umur harus 0-120. Gunakan raise untuk melempar exception jika tidak valid.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -1986,7 +1986,7 @@ input()
   <td width="60%">
       <h3>7.5 Debugging dengan Print Statement (<code>latihan7_5_debug.py</code>)</h3>
       <ul>
-        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Debugging dan Error Handling</b></li>
         <li><b>Soal: </b> Program berikut memiliki logic error. Gunakan print statement untuk men-debug dan menemukan kesalahannya. Program seharusnya menghitung rata-rata.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
