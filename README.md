@@ -831,7 +831,7 @@ input()
   <td width="60%">
       <h3>3.5 Operasi Himpunan (Set) (<code>latihan3_5_set.py</code>)</h3>
       <ul>
-        <li><b>Perulangan (Looping)</b></li>
+        <li><b>Struktur Data Dasar</b></li>
         <li><b>Soal: </b> Buatlah  program  yang  menerima  dua  himpunan  bilangan,  kemudian  menampilkan  hasil  operasi gabungan (union), irisan (intersection), dan selisih (difference). </li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -896,7 +896,7 @@ Fungsi dapat memiliki parameter (nilai masukan) dan return value (nilai keluaran
     <td width="60%">
       <h3>4.1  Fungsi Konversi Suhu (<code>latihan4_1_suhu.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Fungsi (Function)</b></li>
         <li><b>Soal: </b> Buatlah fungsi untuk mengkonversi suhu antara Celcius, Fahrenheit, dan Reamur menggunakan tiga fungsi terpisah.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -945,7 +945,7 @@ input()
     <td width="60%">
       <h3>4.2 Fungsi Cek Bilangan Prima (<code>latihan4_2_prima.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Fungsi (Function)</b></li>
         <li><b>Soal: </b> Buatlah fungsi yang mengembalikan True jika sebuah bilangan adalah prima, dan False jika bukan. Gunakan fungsi tersebut untuk mencetak bilangan prima dari 1 sampai N. </li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
@@ -999,7 +999,7 @@ input()
     <td width="60%">
       <h3>4.3 Fungsi dengan Default Parameter (<code>latihan4_3_diskon.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Fungsi (Function)</b></li>
         <li><b>Soal: </b> Buatlah  fungsi  penghitung  harga  setelah  diskon  dengan  parameter  default.  Diskon  default  10%, pajak default 11%.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
@@ -1051,7 +1051,7 @@ input()
     <td width="60%">
       <h3>4.4 Fungsi Rekursif Faktorial (<code>latihan4_4_rekursif.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Fungsi (Function)</b></li>
         <li><b>Soal: </b> Buatlah  fungsi  rekursif  untuk  menghitung  faktorial.  Fungsi  rekursif  adalah  fungsi  yang memanggil dirinya sendiri.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -1102,7 +1102,7 @@ input()
   <td width="60%">
       <h3>4.5 Kalkulator Fungsional (<code>latihan4_5_kalkulator.py</code>)</h3>
       <ul>
-        <li><b>Perulangan (Looping)</b></li>
+        <li><b>Fungsi (Function)</b></li>
         <li><b>Soal: </b> Buatlah kalkulator yang memanfaatkan beberapa fungsi untuk operasi matematika. Setiap operasi ditangani oleh fungsi terpisah.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -1189,7 +1189,7 @@ yang berdekatan.
     <td width="60%">
       <h3>5.1 Linear Search (<code>latihan5_1_linear_search.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Algoritma dan Logika Pemrograman</b></li>
         <li><b>Soal: </b> Implementasikan algoritma Linear Search untuk mencari posisi sebuah elemen dalam sebuah list. </li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -1234,7 +1234,7 @@ input()
     <td width="60%">
       <h3>5.2 Bubble Sort (<code>latihan5_2_bubble_sort.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Algoritma dan Logika Pemrograman</b></li>
         <li><b>Soal: </b> Implementasikan  algoritma  Bubble  Sort  untuk  mengurutkan  data  secara  ascending  (dari  kecil  ke besar). Program juga menampilkan tahapan pengurutan.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
@@ -1291,7 +1291,7 @@ input()
     <td width="60%">
       <h3>5.3 FPB dan KPK (Algoritma Euclidean) (<code>latihan5_3_fpb_kpk.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Algoritma dan Logika Pemrograman</b></li>
         <li><b>Soal: </b> Buatlah program yang mencari FPB (Faktor Persekutuan Terbesar) menggunakan algoritma Euclidean, lalu gunakan untuk menghitung KPK.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
@@ -1337,7 +1337,7 @@ input()
     <td width="60%">
       <h3>5.4 Palindrom (<code>latihan5_4_palindrom.py</code>)</h3>
       <ul>
-        <li><b>Struktur Data Dasar</b></li>
+        <li><b>Algoritma dan Logika Pemrograman</b></li>
         <li><b>Soal: </b> Buatlah program yang memeriksa apakah suatu kata atau kalimat adalah palindrom (dibaca sama dari depan maupun belakang).</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -1384,7 +1384,7 @@ input()
   <td width="60%">
       <h3>5.5 Konversi Bilangan Desimal ke Biner (<code>latihan5_5_biner.py</code>)</h3>
       <ul>
-        <li><b>Perulangan (Looping)</b></li>
+        <li><b>Algoritma dan Logika Pemrograman</b></li>
         <li><b>Soal: </b> Buatlah program yang mengkonversi bilangan desimal menjadi biner menggunakan metode pembagian berturut-turut.</li>
         <li><details>
               <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
@@ -1433,6 +1433,611 @@ input()
       <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KonversiDesimalKeBiner.png" alt="Pratinjau_KonversiDesimalkeBiner">
   <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan5_5_biner.py">
         <p align="center"><b>Konversi Desimal ke Biner.</b></p>
+  </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## BAB 6 PENGOLAHAN FILE SEDERHANA
+**Pengolahan file** adalah cara program berinteraksi dengan penyimpanan permanen. Berbeda dengan variabel  yang  hanya  ada  selama  program  berjalan,  data  dalam  file  tetap  ada  setelah program ditutup. 
+**Fungsi open() memiliki beberapa mode:**
+Mode  'r'  untuk  membaca  (read,  default),  'w'  untuk  menulis  dan  menimpa  file  (write), 'a'  untuk menambahkan di akhir file (append), 'r+' untuk baca dan tulis. 
+**Rekomendasi penggunaan with statement:**
+```bash
+with open("data.txt", "w") as f: 
+    f.write("Hello, World!") 
+# File otomatis tertutup setelah blok selesai
+```
+Menggunakan  with  membuat  file  otomatis  ditutup  meskipun  terjadi  error,  sehingga  lebih aman daripada pemanggilan open() dan close() manual.
+
+<table>
+  <tr>
+    <td width="60%">
+      <h3>6.1 Menulis File Teks (<code>latihan6_1_tulis_file.py</code>)</h3>
+      <ul>
+        <li><b>Pengolahan File Sederhana</b></li>
+        <li><b>Soal: </b> Buatlah program yang menulis beberapa baris data ke dalam file teks. Data bisa berupa biodata atau catatan sederhana.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+print("+==================================+")
+print("|       Menulis File Biodata       |")
+print("+==================================+")
+nama    = input(" --> Nama    : ") 
+umur    = input(" --> Umur    : ") 
+alamat  = input(" --> Alamat  : ") 
+hobi    = input(" --> Hobi    : ") 
+  
+with open("biodata.txt", "w") as f: 
+    f.write("========== BIODATA ==========\n") 
+
+    f.write(f"Nama   : {nama}\n") 
+    f.write(f"Umur   : {umur}\n") 
+    f.write(f"Alamat : {alamat}\n") 
+    f.write(f"Hobi   : {hobi}\n") 
+
+print("+----------------------------------+")
+print("|File 'biodata.txt' berhasil dibuat!")
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input() 
+               </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/MenulisFile.png" alt="Pratinjau_ProgramMenulisFile">
+      
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan6_1_tulis_file.py">
+        <p align="center"><b>Program Menulis File</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>6.2 Membaca File Teks (<code>latihan6_2_baca_file.py</code>)</h3>
+      <ul>
+        <li><b>Pengolahan File Sederhana</b></li>
+        <li><b>Soal: </b> Buatlah program yang membaca file teks yang telah dibuat sebelumnya dan menampilkan seluruh isinya.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+print("+==================================+")
+print("|       Membaca File Biodata       |")
+print("+==================================+")
+  
+try: 
+    with open("biodata.txt", "r") as f: 
+        isi = f.read() 
+    print(isi) 
+  
+    print("+-----------Per Baris--------------+")
+    with open("biodata.txt", "r") as f: 
+        for nomor, baris in enumerate(f, 1): 
+            print(f"Baris {nomor}: {baris.rstrip()}") 
+except FileNotFoundError: 
+    print("File tidak ditemukan! Jalankan latihan 6.1 terlebih dahulu.") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input() 
+              </code></pre>
+          </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/MembacaFile.png" alt="Pratinjau_ProgramMembacaFile">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan6_2_baca_file.py">
+        <p align="center"><b>Program Pembaca File</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>6.3 Append Data (Catatan Harian) (<code>latihan6_3_catatan.py</code>)</h3>
+      <ul>
+        <li><b>Pengolahan File Sederhana</b></li>
+        <li><b>Soal: </b> Buatlah program catatan harian yang menambahkan catatan baru ke file tanpa menghapus catatan lama. Gunakan mode 'a' (append).</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+from datetime import datetime 
+print("+=================================================+")
+print("|              Buku Catatan Harian                |")
+print("+=================================================+")
+  
+while True: 
+    print("Tulis catatan (ketik 'selesai' untuk berhenti):")
+    catatan = input("\n --> Tulis: ") 
+    if catatan.lower() == "selesai": 
+        break 
+  
+    waktu = datetime.now().strftime("%Y-%m-%d %H:%M") 
+  
+    with open("catatan.txt", "a") as f: 
+        f.write(f"[{waktu}] {catatan}\n") 
+
+    print("+-------------------------------------------------+")
+    print("|              >>> ✓ Tersimpan  <<<               |")
+    print("+-------------------------------------------------+")
+
+print()
+print("+==============  Isi catatan.txt  ================+")
+
+try: 
+    with open("catatan.txt", "r") as f: 
+        print(f.read()) 
+except FileNotFoundError: 
+    print("(belum ada catatan)")
+
+print("+-------------------------------------------------+")
+print()
+print("+=================================================+")
+print("|        Dosen: Bpk. Yusri Ikhwani, M.Kom         |")
+print("|          2510010102 - M. Rizky Rinaldy          |")
+print("+=================================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/CatatanHarian.png" alt="Pratinjau_ProgramCatatanHarian">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan6_3_catatan.py">
+        <p align="center"><b>Program Catatan Harian</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>6.4 Menghitung Statistik File (<code>latihan6_4_statistik_file.py</code>)</h3>
+      <ul>
+        <li><b>Pengolahan File Sederhana</b></li>
+        <li><b>Soal: </b> Buatlah  program  yang  membaca  file  teks  lalu  menghitung  jumlah baris,  jumlah  kata,  dan  jumlah karakter.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+print("+=================================================+")
+print("|              Statistik File Teks                |")
+print("+=================================================+")
+nama_file = input(" --> Nama file: ") 
+  
+try: 
+    with open(nama_file, "r") as f: 
+        isi = f.read() 
+
+    jumlah_baris    = isi.count("\n") + (0 if isi.endswith("\n") else 1) 
+    jumlah_kata     = len(isi.split()) 
+    jumlah_karakter = len(isi) 
+    jumlah_huruf    = sum(1 for c in isi if c.isalpha()) 
+   
+    print("+-------------------------------------------------+")
+    print(f" ==> File            : {nama_file}") 
+    print(f" ==> Jumlah baris    : {jumlah_baris}") 
+    print(f" ==> Jumlah kata     : {jumlah_kata}") 
+    print(f" ==> Jumlah karakter : {jumlah_karakter}") 
+    print(f" ==> Jumlah huruf    : {jumlah_huruf}") 
+except FileNotFoundError: 
+    print(f"File '{nama_file}' tidak ditemukan!")
+print("+-------------------------------------------------+")
+print()
+print("+=================================================+")
+print("|        Dosen: Bpk. Yusri Ikhwani, M.Kom         |")
+print("|          2510010102 - M. Rizky Rinaldy          |")
+print("+=================================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/StatistikFile.png" alt="Pratinjau_StatistikFile">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan6_4_statistik_file.py">
+        <p align="center"><b>Program Statistik File</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+  <td width="60%">
+      <h3>6.5 Database Sederhana dengan CSV (<code>latihan6_5_csv.py</code>)</h3>
+      <ul>
+        <li><b>Pengolahan File Sederhana</b></li>
+        <li><b>Soal: </b> Buatlah aplikasi sederhana yang menyimpan data mahasiswa dalam format CSV (comma-separated values). Program dapat menambah dan menampilkan semua data.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+import os 
+  
+FILE = "mahasiswa.csv" 
+  
+def tambah_data(): 
+    nim     = input(" --> NIM      : ") 
+    nama    = input(" --> Nama     : ") 
+    jurusan = input(" --> Jurusan  : ") 
+    ipk     = input(" --> IPK      : ") 
+    header = not os.path.exists(FILE) 
+    with open(FILE, "a") as f: 
+        if header: 
+            f.write("NIM,Nama,Jurusan,IPK\n") 
+        f.write(f"{nim},{nama},{jurusan},{ipk}\n") 
+
+    print("+-----------------------------------------------------------+")
+    print("|                 >>> ✓ Data tersimpan <<<                  |") 
+    print("+-----------------------------------------------------------+")
+
+def tampil_data(): 
+    if not os.path.exists(FILE): 
+        print("Belum ada data.") 
+        return 
+    with open(FILE, "r") as f: 
+        print("+-----------------------------------------------------------+")
+        for i, baris in enumerate(f): 
+            data = baris.strip().split(",") 
+            if i == 0: 
+                print(f"{data[0]:12s} {data[1]:20s} {data[2]:20s} {data[3]:>5s}") 
+                print("+-----------------------------------------------------------+")
+            else: 
+                print(f"{data[0]:12s} {data[1]:20s} {data[2]:20s} {data[3]:>5s}") 
+        print("+-----------------------------------------------------------+")  
+
+print("+===========================================================+")
+print("|                 Datbase Sederhana (CSV)                   |")
+print("+===========================================================+")
+print("| >>> 1. Tambah Data") 
+print("| >>> 2. Lihat Data") 
+print("| >>> 3. Keluar") 
+print("+-----------------------------------------------------------+")
+while True: 
+    p = input(" ==> Pilihan: ") 
+    if   p == "1": tambah_data() 
+    elif p == "2": tampil_data() 
+    elif p == "3": break 
+print()
+print("+===========================================================+")
+print("|             Dosen: Bpk. Yusri Ikhwani, M.Kom              |")
+print("|               2510010102 - M. Rizky Rinaldy               |")
+print("+===========================================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/DatabaseSederhanaCSV.png" alt="Pratinjau_DatabaseSederhanaCSV">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan6_5_csv.py">
+        <p align="center"><b>Database Sederhana dengan CSV</b></p>
+  </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## BAB 7 DEBUGGING DAN ERROR HANDLING
+Dalam  pemrograman,  error  (kesalahan)  adalah  hal  yang  wajar  terjadi.  Terdapat  tiga  jenis  error utama di Python: 
+**1. Syntax Error** 
+Kesalahan  penulisan  kode  yang  tidak  sesuai  aturan  bahasa  Python.  Program  tidak  akan  berjalan sama sekali sebelum syntax diperbaiki. 
+**2. Runtime Error (Exception)**
+Error yang terjadi saat program berjalan. Contoh: ZeroDivisionError, ValueError, FileNotFoundError,TypeError. 
+**3. Logic Error**
+Program berjalan tanpa error tapi memberikan hasil yang salah. Ini biasanya paling sulit ditemukan karena butuh pengecekan logika program. 
+**Struktur try-except:** 
+```bash
+try: 
+    # kode yang mungkin menimbulkan error 
+except JenisError as e: 
+    # penanganan error 
+else: 
+    # dijalankan jika tidak ada error 
+finally: 
+    # selalu dijalankan
+```
+
+<table>
+  <tr>
+    <td width="60%">
+      <h3>7.1 Validasi Input Numerik (<code>latihan7_1_validasi.py</code>)</h3>
+      <ul>
+        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Soal: </b> Buatlah program yang meminta input angka dari user. Jika user memasukkan bukan angka, program tidak crash tapi meminta ulang.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+print("+==================================+")
+print("|          Validasi Input          |")
+print("+==================================+")
+  
+while True: 
+    try: 
+        angka = float(input(" ==> Masukkan angka: ")) 
+        break 
+    except ValueError: 
+        print("+----------------------------------+")
+        print("| ❌ Input bukan angka, coba lagi! |") 
+        print("+----------------------------------+")
+ 
+print("+----------------------------------+")
+print(f"| ✓ Anda memasukkan : {angka:<10}   |") 
+print(f"|  Kuadratnya       : {angka ** 2:<10}   |") 
+print("+----------------------------------+")
+print()
+print("+==================================+")
+print("| Dosen: Bpk. Yusri Ikhwani, M.Kom |")
+print("|   2510010102 - M. Rizky Rinaldy  |")
+print("+==================================+")
+
+input() 
+               </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ValidasiInput.png" alt="Pratinjau_ValidasiInput">
+      
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan7_1_validasi.py">
+        <p align="center"><b>Program Validasi Input</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>7.2 Menangani Pembagian Nol (<code>latihan7_2_bagi_nol.py</code>)</h3>
+      <ul>
+        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Soal: </b> Buatlah program kalkulator pembagian yang dapat menangani pembagian dengan nol (ZeroDivisionError).</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+print("+==========================================+")
+print("|           Kalkulator Pembagian           |")
+print("+==========================================+")
+  
+try: 
+    a = float(input(" --> Pembilang : ")) 
+    b = float(input(" --> Penyebut  : ")) 
+    hasil = a / b 
+except ZeroDivisionError: 
+    print("+------------------------------------------+")
+    print("| ❌ Error: Tidak bisa dibagi dengan nol!  |") 
+    print("+------------------------------------------+")
+except ValueError: 
+    print("+------------------------------------------+")
+    print("| ❌ Error: Input harus berupa angka!      |") 
+    print("+------------------------------------------+")
+
+else: 
+    print("+------------------------------------------+")
+    print(f"| ✓ {a:>6} / {b:<6} = {hasil:<20.4f} |") 
+    print("+------------------------------------------+")
+
+finally: 
+    print("+------------------------------------------+")
+    print("|         >>> (Proses selesai) <<<         |")
+print("+------------------------------------------+")
+print()
+print("+==========================================+")
+print("|     Dosen: Bpk. Yusri Ikhwani, M.Kom     |")
+print("|       2510010102 - M. Rizky Rinaldy      |")
+print("+==========================================+")
+
+input() 
+              </code></pre>
+          </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/KalkulatorPembagian.png" alt="Pratinjau_KalkulatorPembagian">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan7_2_bagi_nol.py">
+        <p align="center"><b>Kalkulator Pembagian</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>7.3 Menangani File Tidak Ditemukan (<code>latihan7_3_file_error.py</code>)</h3>
+      <ul>
+        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Soal: </b> BBuatlah  program  yang  mencoba  membaca  sebuah  file.  Jika  file  tidak  ada,  tampilkan  pesan  yang informatif tanpa crash.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary> 
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+print("+====================================================+")
+print("|                     Pembaca File                   |")
+print("+====================================================+")
+nama_file = input(" ==> Nama file: ") 
+  
+try: 
+    with open(nama_file, "r") as f: 
+        isi = f.read() 
+    print("+----------------------------------------------------+")
+    print("|             --- >>> Isi File <<< ---               |") 
+    print("+----------------------------------------------------+")
+    print(isi) 
+except FileNotFoundError: 
+    print("+----------------------------------------------------+")
+    print(f"| ❌ File '{nama_file:<23}' tidak ditemukan. |") 
+    print("+----------------------------------------------------+")
+    pilih = input(" ==> Buat file baru? (Y/T): ").upper() 
+    if pilih == "Y": 
+        konten = input(" --> Tulis isi file: ") 
+        with open(nama_file, "w") as f: 
+            f.write(konten) 
+        print("+----------------------------------------------------+")
+        print(f"| ✓ File '{nama_file:<31}' dibuat. |") 
+        print("+----------------------------------------------------+")
+
+except PermissionError: 
+    print("+----------------------------------------------------+")
+    print(f"❌ Tidak punya izin akses ke '{nama_file}'.") 
+    print("+----------------------------------------------------+")
+
+except Exception as e: 
+    print("+----------------------------------------------------+")
+    print(f"❌ Error tak terduga: {type(e).__name__}: {e}") 
+    print("+----------------------------------------------------+")
+
+print()
+print("+====================================================+")
+print("|          Dosen: Bpk. Yusri Ikhwani, M.Kom          |")
+print("|            2510010102 - M. Rizky Rinaldy           |")
+print("+====================================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/PembacaFile.png" alt="Pratinjau_ProgramPembacaFile">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan7_3_file_error.py">
+        <p align="center"><b>Program Pembaca File</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>7.4 Custom Exception dengan raise (<code>latihan7_4_raise.py</code>)</h3>
+      <ul>
+        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Soal: </b> Buatlah program validasi umur dengan aturan: umur harus 0-120. Gunakan raise untuk melempar exception jika tidak valid.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+def validasi_umur(umur): 
+    if not isinstance(umur, (int, float)): 
+        raise TypeError("Umur harus berupa angka") 
+    if umur < 0: 
+        raise ValueError("Umur tidak boleh negatif") 
+    if umur > 120: 
+        raise ValueError("Umur tidak realistis (>120)") 
+    return True 
+
+print("+==========================================+")
+print("|              Validasi Umur               |")
+print("+==========================================+") 
+  
+try: 
+    umur = int(input(" ==> Umur Anda: ")) 
+    validasi_umur(umur) 
+    print("+------------------------------------------+")
+    print(f"|         ✓ Umur {umur:<11} valid         |") 
+    print("+------------------------------------------+")
+    if umur < 17: 
+        print("+------------------------------------------+")
+        print("|    >>> Kategori: Anak-anak/Remaja <<<    |") 
+    elif umur < 60: 
+        print("+------------------------------------------+")
+        print("|         >>> Kategori: Dewasa <<<         |") 
+    else: 
+        print("+------------------------------------------+")
+        print("|         >>> Kategori: Lansia <<<         |") 
+
+except ValueError as e: 
+    print("+------------------------------------------+")
+    print(f"|  ❌ Error:  {e}  |") 
+except TypeError as e: 
+    print("+------------------------------------------+")
+    print(f"|  ❌ Error:  {e}  |")
+
+
+print("+------------------------------------------+")
+print()
+print("+==========================================+")
+print("|     Dosen: Bpk. Yusri Ikhwani, M.Kom     |")
+print("|       2510010102 - M. Rizky Rinaldy      |")
+print("+==========================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/ValidasiUmur.png" alt="Pratinjau_ValidasiUmur">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan7_4_raise.py">
+        <p align="center"><b>Program Validasi Umur</b></p>
+  </a>
+    </td>
+  </tr>
+  <tr>
+  <td width="60%">
+      <h3>7.5 Debugging dengan Print Statement (<code>latihan7_5_debug.py</code>)</h3>
+      <ul>
+        <li><b>Debugging dan Erreor Handling</b></li>
+        <li><b>Soal: </b> Program berikut memiliki logic error. Gunakan print statement untuk men-debug dan menemukan kesalahannya. Program seharusnya menghitung rata-rata.</li>
+        <li><details>
+              <summary><b>🔍 Klik untuk melihat Source Code</b></summary>
+                <pre style="background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>
+def rata_rata(data): 
+    print(f" >-< [DEBUG] Data masuk : {data}") 
+    print(f" >-< [DEBUG] Jumlah item: {len(data)}") 
+  
+    total = 0 
+    for i, angka in enumerate(data): 
+        total += angka 
+        print(f" >-< [DEBUG] Iterasi {i}: total = {total}") 
+  
+    if len(data) == 0: 
+        print(">-< [DEBUG] Data kosong, return 0") 
+        return 0 
+  
+    hasil = total / len(data) 
+    print(f" >-< [DEBUG] Total akhir: {total}") 
+    print(f" >-< [DEBUG] Rata-rata : {hasil}") 
+    return hasil 
+
+print("+====================================================+")
+print("|            Program Rata-rata (with debug)          |")
+print("+====================================================+")
+  
+data1 = [80, 75, 90, 85, 70] 
+print(f"|  ==> Data: {data1}") 
+print("+----------------------------------------------------+")
+
+r = rata_rata(data1) 
+print("+----------------------------------------------------+")
+print(f"|           ==> Rata-rata = {r:<25}|")
+print("+----------------------------------------------------+")
+
+print()
+print("+====================================================+")
+print("|          Dosen: Bpk. Yusri Ikhwani, M.Kom          |")
+print("|            2510010102 - M. Rizky Rinaldy           |")
+print("+====================================================+")
+
+input() 
+              </code></pre>
+            </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="/ALGO2 - Bpk. Yusri Ikhwani, M.Kom/img/DebugRata-rata.png" alt="Pratinjau_DebugRataRata">
+  <a href="https://github.com/rnld-devcode/Praktikum_2510010102_M.RizkyRinaldy/blob/main/ALGO2%20-%20Bpk.%20Yusri%20Ikhwani%2C%20M.Kom/latihan6_5_csv.py">
+        <p align="center"><b>Program Data Rata-rata</b></p>
   </a>
     </td>
   </tr>
